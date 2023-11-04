@@ -1,11 +1,11 @@
 version: 1
 datastore:
-  user: 
-  password: 
-  hostname: localhost
+  user: conflict_user
+  password: conflict_password
+  hostname: ky-3855.westus3.cloudapp.azure.com
   port: 3306
   db: conflict_db
 events:
-  hostname: localhost
+  hostname: ky-3855.westus3.cloudapp.azure.com
   port: 9092
   topic: events
