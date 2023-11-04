@@ -4,6 +4,6 @@ conflictLog:
 operationLog:
   url: http://localhost:8090/conflict/operation_plan
 events:
-  hostname: ky-3855.westus3.cloudapp.azure.com
+  hostname: localhost
   port: 9092
   topic: events

@@ -1,5 +1,5 @@
 version: 1
 events:
-  hostname: ky-3855.westus3.cloudapp.azure.com
+  hostname: locahost
   port: 9092
   topic: events
