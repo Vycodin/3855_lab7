@@ -13,10 +13,10 @@ services:
     hostname: kafka
     environment:
       KAFKA_CREATE_TOPICS: "events:1:1" # topic:partition:replicas
-      KAFKA_ADVERTISED_HOST_NAME: ky-3855.westus3.cloudapp.azure.com # docker-machine ip
+      KAFKA_ADVERTISED_HOST_NAME: localhost # docker-machine ip
       KAFKA_LISTENERS: INSIDE://:29092,OUTSIDE://:9092
       KAFKA_INTER_BROKER_LISTENER_NAME: INSIDE
-      KAFKA_ADVERTISED_LISTENERS: INSIDE://kafka:29092,OUTSIDE://ky-3855.westus3.cloudapp.azure.com:9092
+      KAFKA_ADVERTISED_LISTENERS: INSIDE://kafka:29092,OUTSIDE://localhost:9092
       KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INSIDE:PLAINTEXT,OUTSIDE:PLAINTEXT
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
     volumes:
@@ -44,5 +44,30 @@ services:
     volumes:
       - my-db:/var/lib/mysql
     #   Names our volume
+  receiver:
+    image: receiver:latest
+    ports:
+      - "8080:8080"
+    depends_on:
+      - "kafka"
+  storage:
+    image: storage:latest
+    ports:
+      - "8090:8090"
+    depends_on:
+      - "kafka"
+  processing:
+    image: processing:latest
+    ports:
+      - "8100:8100"
+    network_mode: "host"
+    depends_on:
+      - "storage"
+  audit_log:
+    image: audit:latest
+    ports:
+      - "8110:8110"
+    depends_on:
+      - "kafka"
 volumes:
   my-db:
