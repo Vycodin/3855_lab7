@@ -1,9 +1,6 @@
 from sqlalchemy import Column, Integer, String, DateTime
 from base import Base
 import datetime
-import pytz
-
-tz = pytz.timezone('UTC')
 
 class UploadOperation(Base):
 

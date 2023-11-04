@@ -1,9 +1,8 @@
 from sqlalchemy import Column, Integer, String, DateTime
 from base import Base
-import pytz
+
 import datetime
 
-tz = pytz.timezone('UTC')
 
 class ReportConflict(Base):
 
