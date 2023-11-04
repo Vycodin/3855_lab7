@@ -1,0 +1,123 @@
+openapi: 3.0.0
+servers: []
+info:
+  description: This is a simple API
+  version: "1.0.0"
+  title: Simple Inventory API
+  contact:
+    email: kbyin2@gmail.com
+  license:
+    name: Apache 2.0
+    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+tags:
+  - name: admins
+    description: Secured Admin-only calls
+  - name: developers
+    description: Operations available to regular developers
+paths:
+  /conflict/new_conflict:
+    post:
+      tags:
+        - conflict
+      summary: reports a new conflict erupting
+      operationId: app.report_conflict
+      description: adds a new conflict node on a galaxy wide conflict map
+      responses:
+        '201':
+          description: node added
+        '400':
+          description: 'node failed'
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/conflict_node'
+        description: reading node details to add
+  
+  /conflict/operation_plan:
+    post:
+      tags:
+        - operation
+      summary: uploads operation plans
+      operationId: app.upload_operation
+      description: uploads a new operational plan for imperial news
+      responses:
+        '201':
+          description: plan uploaded
+        '400':
+          description: plan not uploaded
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/operation_plan'
+        description: reading item to add
+        
+      
+components:
+  schemas:
+    conflict_node:
+      required:
+      - node_id
+      - planet_id
+      - system_id
+      - timestamp
+      - blu_numbers
+      - op_numbers
+      properties:
+        node_id:
+          type: string
+          format: uuid
+          example: 2e5962d0-490a-4652-815a-6973e043a983
+        planet_id:
+          type: string
+          example: delta_1
+        system_id:
+          type: string
+          example: system_pacifica
+        timestamp:
+          type: string
+          format: date
+          example: '40241-08-25'
+        blu_numbers:
+          type: integer
+          example: 1000000
+        op_numbers:
+          type: integer
+          example: 1000
+      type: object
+      
+    operation_plan:
+      required:
+      - operation_id
+      - planet_id
+      - system_id
+      - op_type
+      - timestamp
+      - blu_ships
+      - op_ships
+      properties:
+        operation_id:
+          type: string
+          example: op_Eagle_Eye
+        planet_id:
+          type: string
+          example: delta_1
+        system_id:
+          type: string
+          example: system_pacifica
+        op_type: 
+          type: string
+          example: planetary_invasion
+        timestamp:
+          type: string
+          format: date
+          example: '40241-08-25'
+        blu_ships:
+          type: integer
+          example: 240
+        op_ships:
+          type: integer
+          example: 120
+      type: object
+      

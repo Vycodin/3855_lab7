@@ -1,0 +1,161 @@
+openapi: 3.0.0
+servers: []
+info:
+  description: This is a simple API
+  version: "1.0.0"
+  title: Simple Inventory API
+  contact:
+    email: kbyin2@gmail.com
+  license:
+    name: Apache 2.0
+    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+tags:
+  - name: admins
+    description: Secured Admin-only calls
+  - name: developers
+    description: Operations available to regular developers
+paths:
+  /conflict/new_conflict:
+    get:
+      tags:
+        - conflict
+      summary: gets new conflict reports
+      operationId: app.get_conflict_report
+      description: gets the latest conflict reports after a certain timestamp
+      parameters:
+        - name: timestamp
+          in: query
+          description: Limits the number of reports per page
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.010
+      responses:
+        '200':
+          description: successful return of an array of reports
+          content:
+            application/json:
+              schema:
+                type: array
+                items: 
+                  $ref: '#/components/schemas/conflict_node'
+        '400':
+          description: Invalid Request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+  
+  /conflict/operation_plan:
+    get:
+      tags:
+        - operation_plan
+      summary: gets new operation plans
+      operationId: app.get_operation_plan
+      description: gets the latest operations posted after a certain timestamp
+      parameters:
+        - name: timestamp
+          in: query
+          description: limits the number of operations per page
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.010
+      responses:
+        '200':
+          description: Successful return of list of operations
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/operation_plan'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        
+      
+components:
+  schemas:
+    conflict_node:
+      required:
+      - node_id
+      - planet_id
+      - system_id
+      - timestamp
+      - blu_numbers
+      - op_numbers
+      - trace_id
+      properties:
+        node_id:
+          type: string
+          format: uuid
+          example: 2e5962d0-490a-4652-815a-6973e043a983
+        planet_id:
+          type: string
+          example: delta_1
+        system_id:
+          type: string
+          example: system_pacifica
+        timestamp:
+          type: string
+          format: date
+          example: 2016-08-29T09:12:33.010
+        blu_numbers:
+          type: integer
+          example: 1000000
+        op_numbers:
+          type: integer
+          example: 1000
+        trace_id:
+          type: integer
+          example: 1049582
+      type: object
+      
+    operation_plan:
+      required:
+      - operation_id
+      - planet_id
+      - system_id
+      - op_type
+      - timestamp
+      - blu_ships
+      - op_ships
+      - trace_id
+      properties:
+        operation_id:
+          type: string
+          example: op_Eagle_Eye
+        planet_id:
+          type: string
+          example: delta_1
+        system_id:
+          type: string
+          example: system_pacifica
+        op_type: 
+          type: string
+          example: planetary_invasion
+        timestamp:
+          type: string
+          format: date
+          example: 2016-08-29T09:12:33.010
+        blu_ships:
+          type: integer
+          example: 240
+        op_ships:
+          type: integer
+          example: 120
+        trace_id:
+          type: integer
+          example: 192845
+      type: object
+      

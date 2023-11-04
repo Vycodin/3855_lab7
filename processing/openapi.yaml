@@ -1,0 +1,70 @@
+openapi: 3.0.0
+servers: []
+info:
+  description: This is a simple API
+  version: "1.0.0"
+  title: Simple Inventory API
+  contact:
+    email: kbyin2@gmail.com
+  license:
+    name: Apache 2.0
+    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+tags:
+  - name: admins
+    description: Secured Admin-only calls
+  - name: developers
+    description: Operations available to regular developers
+paths:
+  /stats:
+    get:
+      summary: gets event stats
+      operationId: app.get_stats
+      description: Gets conflict and operation plan stats
+      responses:
+        '200':
+          description: returned some stats
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: '#/components/schemas/ReadingStats'
+        '400':
+          description: invalid requests
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+components:
+  schemas:
+    ReadingStats:
+      required:
+        - num_conflicts
+        - max_blu
+        - max_op
+        - num_operations
+        - max_blu_ships
+        - max_op_ships
+      properties:
+        num_conflicts:
+          type: integer
+          example: 20000
+        max_blu:
+          type: integer
+          example: 34120
+        max_op:
+          type: integer
+          example: 32405
+        num_operations:
+          type: integer
+          example: 3400
+        max_blu_ships:
+          type: integer
+          example: 3420
+        max_op_ships:
+          type: integer 
+          example: 3212
+      type: object

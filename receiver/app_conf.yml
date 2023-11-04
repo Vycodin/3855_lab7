@@ -1,0 +1,9 @@
+version: 1
+conflictLog:
+  url: http://localhost:8090/conflict/new_conflict
+operationLog:
+  url: http://localhost:8090/conflict/operation_plan
+events:
+  hostname: ky-3855.westus3.cloudapp.azure.com
+  port: 9092
+  topic: events
