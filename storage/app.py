@@ -5,8 +5,6 @@ from sqlalchemy.orm import sessionmaker
 from base import Base
 from report_conflict import ReportConflict
 from upload_operation import UploadOperation
-import mysql.connector
-import pymysql
 import yaml
 import logging
 import logging.config
