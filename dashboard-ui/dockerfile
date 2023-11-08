@@ -1,4 +1,4 @@
-FROM node:13.12.0-albine
+FROM node:13.12.0-alpine
 
 # SET WORKING DIRECTORY
 
