@@ -8,14 +8,15 @@ export default function EndpointAudit(props) {
     const [index, setIndex] = useState(null);
 	const rand_val = Math.floor(Math.random() * 100); // Get a random event from the event store
 
+
     const getAudit = () => {
-        fetch(`http://ky-3855.westus3.cloudapp.azure.com:8110/${props.endpoint}?index=${rand_val}`)
+        setIndex(rand_val)
+        fetch(`http://ky-3855.westus3.cloudapp.azure.com:8110/${props.endpoint}?index=${index}`)
             .then(res => res.json())
             .then((result)=>{
 				console.log("Received Audit Results for " + props.endpoint)
                 setLog(result);
                 setIsLoaded(true);
-                setIndex(rand_val);
             },(error) =>{
                 setError(error)
                 setIsLoaded(true);

@@ -30,6 +30,23 @@ DB_ENGINE = create_engine(f"mysql+pymysql://{app_config['datastore']['user']}:{a
 Base.metadata.bind = DB_ENGINE
 DB_SESSION = sessionmaker(bind=DB_ENGINE)
 
+max_retries = app_config["kafka"]["max_retries"]
+current_retry = 0
+while current_retry < max_retries:
+    try:
+        logger.info(f'Attempting to connect to Kafka. Retry count: {current_retry}')
+        hostname = f"{app_config['events']['hostname']}:{app_config['events']['port']}"
+        client = KafkaClient(hosts=hostname)
+        topic = client.topics[str.encode(app_config["events"]["topic"])]
+        break
+    except Exception as e:
+        logger.error(f'Connection to Kafka failed. Error:{str(e)}')
+        sleep_time = app_config['kafka']['sleep_time']
+        time.sleep(sleep_time)
+        current_retry +=1
+else:
+    logger.error("Max Retries reached. Could not connect to Kafka")
+
 
 def get_conflict_report(timestamp, end_timestamp):
     session = DB_SESSION()
@@ -72,23 +89,6 @@ def get_operation_plan(timestamp, end_timestamp):
 def process_messages():
     """Process event messages"""
     logger.info("Starting Processing")
-    max_retries = app_config["kafka"]["max_retries"]
-    current_retry = 0
-    while current_retry < max_retries:
-        try:
-            logger.info(f'Attempting to connect to Kafka. Retry count: {current_retry}')
-            hostname = f"{app_config['events']['hostname']}:{app_config['events']['port']}"
-            client = KafkaClient(hosts=hostname)
-            topic = client.topics[str.encode(app_config["events"]["topic"])]
-            break
-        except Exception as e:
-            logger.error(f'Connection to Kafka failed. Error:{str(e)}')
-
-            sleep_time = app_config['kafka']['sleep_time']
-            time.sleep(sleep_time)
-            current_retry +=1
-    else:
-        logger.error("Max Retries reached. Could not connect to Kafka")
     consumer = topic.get_simple_consumer(consumer_group=b'event_group',
                                          reset_offset_on_start=False,
                                          auto_offset_reset=OffsetType.LATEST)
