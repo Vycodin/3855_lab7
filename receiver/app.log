@@ -4527,3 +4527,413 @@
 2023-10-31 14:35:29,619 - basicLogger - INFO - Returned event <report_conflict> reponse 867457538 with status 201
 2023-10-31 14:35:29,620 - basicLogger - INFO - Returned event <report_conflict> reponse 147233737 with status 201
 2023-10-31 14:35:29,740 - basicLogger - INFO - Returned event <report_conflict> reponse 184936522 with status 201
+2023-11-08 16:33:14,057 - basicLogger - INFO - Received event <report_conflict> with a trace id of 984356741
+2023-11-08 16:33:14,327 - basicLogger - INFO - Returned event <report_conflict> reponse 984356741 with status 201
+2023-11-08 16:36:19,839 - basicLogger - INFO - Received event <upload_operation> with a trace id of 519041232
+2023-11-08 16:36:20,137 - basicLogger - INFO - Returned event <upload_operation> reponse 519041232 with status 201
+2023-11-08 16:49:06,755 - basicLogger - INFO - Received event <report_conflict> with a trace id of 825723764
+2023-11-08 16:49:07,042 - basicLogger - INFO - Returned event <report_conflict> reponse 825723764 with status 201
+2023-11-08 16:50:12,362 - basicLogger - INFO - Received event <upload_operation> with a trace id of 348337002
+2023-11-08 16:50:12,663 - basicLogger - INFO - Returned event <upload_operation> reponse 348337002 with status 201
+2023-11-08 16:50:19,944 - basicLogger - INFO - Received event <upload_operation> with a trace id of 734803391
+2023-11-08 16:50:20,228 - basicLogger - INFO - Returned event <upload_operation> reponse 734803391 with status 201
+2023-11-08 16:50:44,152 - basicLogger - INFO - Received event <report_conflict> with a trace id of 185188967
+2023-11-08 16:50:44,251 - basicLogger - INFO - Received event <report_conflict> with a trace id of 370971682
+2023-11-08 16:50:44,349 - basicLogger - INFO - Received event <report_conflict> with a trace id of 812632909
+2023-11-08 16:50:44,439 - basicLogger - INFO - Returned event <report_conflict> reponse 185188967 with status 201
+2023-11-08 16:50:44,447 - basicLogger - INFO - Received event <report_conflict> with a trace id of 817870431
+2023-11-08 16:50:44,519 - basicLogger - INFO - Returned event <report_conflict> reponse 370971682 with status 201
+2023-11-08 16:50:44,550 - basicLogger - INFO - Received event <report_conflict> with a trace id of 23714992
+2023-11-08 16:50:44,601 - basicLogger - INFO - Returned event <report_conflict> reponse 812632909 with status 201
+2023-11-08 16:50:44,649 - basicLogger - INFO - Received event <report_conflict> with a trace id of 916177400
+2023-11-08 16:50:44,693 - basicLogger - INFO - Returned event <report_conflict> reponse 817870431 with status 201
+2023-11-08 16:50:44,747 - basicLogger - INFO - Received event <report_conflict> with a trace id of 497978048
+2023-11-08 16:50:44,806 - basicLogger - INFO - Returned event <report_conflict> reponse 23714992 with status 201
+2023-11-08 16:50:44,849 - basicLogger - INFO - Received event <report_conflict> with a trace id of 943329955
+2023-11-08 16:50:44,907 - basicLogger - INFO - Returned event <report_conflict> reponse 916177400 with status 201
+2023-11-08 16:50:44,949 - basicLogger - INFO - Received event <report_conflict> with a trace id of 661344414
+2023-11-08 16:50:45,002 - basicLogger - INFO - Returned event <report_conflict> reponse 497978048 with status 201
+2023-11-08 16:50:45,048 - basicLogger - INFO - Received event <report_conflict> with a trace id of 340964961
+2023-11-08 16:50:45,109 - basicLogger - INFO - Returned event <report_conflict> reponse 943329955 with status 201
+2023-11-08 16:50:45,223 - basicLogger - INFO - Returned event <report_conflict> reponse 661344414 with status 201
+2023-11-08 16:50:45,345 - basicLogger - INFO - Returned event <report_conflict> reponse 340964961 with status 201
+2023-11-08 16:50:49,451 - basicLogger - INFO - Received event <upload_operation> with a trace id of 312536767
+2023-11-08 16:50:49,527 - basicLogger - INFO - Received event <upload_operation> with a trace id of 829811845
+2023-11-08 16:50:49,627 - basicLogger - INFO - Received event <upload_operation> with a trace id of 245683119
+2023-11-08 16:50:49,700 - basicLogger - INFO - Received event <upload_operation> with a trace id of 677878172
+2023-11-08 16:50:49,714 - basicLogger - INFO - Returned event <upload_operation> reponse 312536767 with status 201
+2023-11-08 16:50:49,779 - basicLogger - INFO - Returned event <upload_operation> reponse 829811845 with status 201
+2023-11-08 16:50:49,824 - basicLogger - INFO - Received event <upload_operation> with a trace id of 922680700
+2023-11-08 16:50:49,908 - basicLogger - INFO - Returned event <upload_operation> reponse 245683119 with status 201
+2023-11-08 16:50:49,920 - basicLogger - INFO - Received event <upload_operation> with a trace id of 898293838
+2023-11-08 16:50:49,988 - basicLogger - INFO - Returned event <upload_operation> reponse 677878172 with status 201
+2023-11-08 16:50:50,012 - basicLogger - INFO - Received event <upload_operation> with a trace id of 511523655
+2023-11-08 16:50:50,121 - basicLogger - INFO - Received event <upload_operation> with a trace id of 852602085
+2023-11-08 16:50:50,128 - basicLogger - INFO - Returned event <upload_operation> reponse 922680700 with status 201
+2023-11-08 16:50:50,210 - basicLogger - INFO - Returned event <upload_operation> reponse 898293838 with status 201
+2023-11-08 16:50:50,227 - basicLogger - INFO - Received event <upload_operation> with a trace id of 292817447
+2023-11-08 16:50:50,274 - basicLogger - INFO - Returned event <upload_operation> reponse 511523655 with status 201
+2023-11-08 16:50:50,350 - basicLogger - INFO - Received event <upload_operation> with a trace id of 373464428
+2023-11-08 16:50:50,371 - basicLogger - INFO - Returned event <upload_operation> reponse 852602085 with status 201
+2023-11-08 16:50:50,479 - basicLogger - INFO - Returned event <upload_operation> reponse 292817447 with status 201
+2023-11-08 16:50:50,596 - basicLogger - INFO - Returned event <upload_operation> reponse 373464428 with status 201
+2023-11-08 16:50:54,718 - basicLogger - INFO - Received event <report_conflict> with a trace id of 821096377
+2023-11-08 16:50:54,797 - basicLogger - INFO - Received event <report_conflict> with a trace id of 799811821
+2023-11-08 16:50:54,924 - basicLogger - INFO - Received event <report_conflict> with a trace id of 145952350
+2023-11-08 16:50:55,001 - basicLogger - INFO - Received event <report_conflict> with a trace id of 195122100
+2023-11-08 16:50:55,009 - basicLogger - INFO - Returned event <report_conflict> reponse 821096377 with status 201
+2023-11-08 16:50:55,082 - basicLogger - INFO - Returned event <report_conflict> reponse 799811821 with status 201
+2023-11-08 16:50:55,145 - basicLogger - INFO - Received event <report_conflict> with a trace id of 553942071
+2023-11-08 16:50:55,194 - basicLogger - INFO - Returned event <report_conflict> reponse 145952350 with status 201
+2023-11-08 16:50:55,223 - basicLogger - INFO - Received event <report_conflict> with a trace id of 554658674
+2023-11-08 16:50:55,249 - basicLogger - INFO - Returned event <report_conflict> reponse 195122100 with status 201
+2023-11-08 16:50:55,322 - basicLogger - INFO - Received event <report_conflict> with a trace id of 888672700
+2023-11-08 16:50:55,376 - basicLogger - INFO - Received event <report_conflict> with a trace id of 353104971
+2023-11-08 16:50:55,413 - basicLogger - INFO - Returned event <report_conflict> reponse 553942071 with status 201
+2023-11-08 16:50:55,482 - basicLogger - INFO - Returned event <report_conflict> reponse 554658674 with status 201
+2023-11-08 16:50:55,484 - basicLogger - INFO - Received event <report_conflict> with a trace id of 619822969
+2023-11-08 16:50:55,577 - basicLogger - INFO - Returned event <report_conflict> reponse 888672700 with status 201
+2023-11-08 16:50:55,612 - basicLogger - INFO - Received event <report_conflict> with a trace id of 196274710
+2023-11-08 16:50:55,634 - basicLogger - INFO - Returned event <report_conflict> reponse 353104971 with status 201
+2023-11-08 16:50:55,782 - basicLogger - INFO - Returned event <report_conflict> reponse 619822969 with status 201
+2023-11-08 16:50:55,931 - basicLogger - INFO - Returned event <report_conflict> reponse 196274710 with status 201
+2023-11-08 16:51:00,021 - basicLogger - INFO - Received event <upload_operation> with a trace id of 238773546
+2023-11-08 16:51:00,098 - basicLogger - INFO - Received event <upload_operation> with a trace id of 10714746
+2023-11-08 16:51:00,208 - basicLogger - INFO - Received event <upload_operation> with a trace id of 437094860
+2023-11-08 16:51:00,257 - basicLogger - INFO - Received event <upload_operation> with a trace id of 346319799
+2023-11-08 16:51:00,275 - basicLogger - INFO - Returned event <upload_operation> reponse 238773546 with status 201
+2023-11-08 16:51:00,387 - basicLogger - INFO - Returned event <upload_operation> reponse 10714746 with status 201
+2023-11-08 16:51:00,427 - basicLogger - INFO - Received event <upload_operation> with a trace id of 135540752
+2023-11-08 16:51:00,489 - basicLogger - INFO - Received event <upload_operation> with a trace id of 979065396
+2023-11-08 16:51:00,523 - basicLogger - INFO - Returned event <upload_operation> reponse 437094860 with status 201
+2023-11-08 16:51:00,532 - basicLogger - INFO - Returned event <upload_operation> reponse 346319799 with status 201
+2023-11-08 16:51:00,585 - basicLogger - INFO - Received event <upload_operation> with a trace id of 103525883
+2023-11-08 16:51:00,646 - basicLogger - INFO - Received event <upload_operation> with a trace id of 405276293
+2023-11-08 16:51:00,679 - basicLogger - INFO - Returned event <upload_operation> reponse 135540752 with status 201
+2023-11-08 16:51:00,756 - basicLogger - INFO - Returned event <upload_operation> reponse 979065396 with status 201
+2023-11-08 16:51:00,800 - basicLogger - INFO - Received event <upload_operation> with a trace id of 2070128
+2023-11-08 16:51:00,837 - basicLogger - INFO - Returned event <upload_operation> reponse 103525883 with status 201
+2023-11-08 16:51:00,897 - basicLogger - INFO - Returned event <upload_operation> reponse 405276293 with status 201
+2023-11-08 16:51:00,940 - basicLogger - INFO - Received event <upload_operation> with a trace id of 226180093
+2023-11-08 16:51:01,070 - basicLogger - INFO - Returned event <upload_operation> reponse 2070128 with status 201
+2023-11-08 16:51:01,201 - basicLogger - INFO - Returned event <upload_operation> reponse 226180093 with status 201
+2023-11-08 16:51:05,298 - basicLogger - INFO - Received event <report_conflict> with a trace id of 569006826
+2023-11-08 16:51:05,408 - basicLogger - INFO - Received event <report_conflict> with a trace id of 647285622
+2023-11-08 16:51:05,534 - basicLogger - INFO - Received event <report_conflict> with a trace id of 989672497
+2023-11-08 16:51:05,549 - basicLogger - INFO - Received event <report_conflict> with a trace id of 916229040
+2023-11-08 16:51:05,595 - basicLogger - INFO - Returned event <report_conflict> reponse 569006826 with status 201
+2023-11-08 16:51:05,689 - basicLogger - INFO - Returned event <report_conflict> reponse 647285622 with status 201
+2023-11-08 16:51:05,692 - basicLogger - INFO - Received event <report_conflict> with a trace id of 186551853
+2023-11-08 16:51:05,771 - basicLogger - INFO - Received event <report_conflict> with a trace id of 225215025
+2023-11-08 16:51:05,787 - basicLogger - INFO - Returned event <report_conflict> reponse 989672497 with status 201
+2023-11-08 16:51:05,828 - basicLogger - INFO - Returned event <report_conflict> reponse 916229040 with status 201
+2023-11-08 16:51:05,846 - basicLogger - INFO - Received event <report_conflict> with a trace id of 504211504
+2023-11-08 16:51:05,905 - basicLogger - INFO - Received event <report_conflict> with a trace id of 501139979
+2023-11-08 16:51:05,966 - basicLogger - INFO - Returned event <report_conflict> reponse 186551853 with status 201
+2023-11-08 16:51:06,083 - basicLogger - INFO - Received event <report_conflict> with a trace id of 643576517
+2023-11-08 16:51:06,084 - basicLogger - INFO - Returned event <report_conflict> reponse 225215025 with status 201
+2023-11-08 16:51:06,123 - basicLogger - INFO - Returned event <report_conflict> reponse 504211504 with status 201
+2023-11-08 16:51:06,188 - basicLogger - INFO - Returned event <report_conflict> reponse 501139979 with status 201
+2023-11-08 16:51:06,208 - basicLogger - INFO - Received event <report_conflict> with a trace id of 567278563
+2023-11-08 16:51:06,353 - basicLogger - INFO - Returned event <report_conflict> reponse 643576517 with status 201
+2023-11-08 16:51:06,478 - basicLogger - INFO - Returned event <report_conflict> reponse 567278563 with status 201
+2023-11-08 16:51:10,607 - basicLogger - INFO - Received event <upload_operation> with a trace id of 803183139
+2023-11-08 16:51:10,702 - basicLogger - INFO - Received event <upload_operation> with a trace id of 109796897
+2023-11-08 16:51:10,794 - basicLogger - INFO - Received event <upload_operation> with a trace id of 622246866
+2023-11-08 16:51:10,840 - basicLogger - INFO - Received event <upload_operation> with a trace id of 491642979
+2023-11-08 16:51:10,922 - basicLogger - INFO - Returned event <upload_operation> reponse 803183139 with status 201
+2023-11-08 16:51:10,982 - basicLogger - INFO - Received event <upload_operation> with a trace id of 171197154
+2023-11-08 16:51:11,029 - basicLogger - INFO - Returned event <upload_operation> reponse 109796897 with status 201
+2023-11-08 16:51:11,074 - basicLogger - INFO - Returned event <upload_operation> reponse 622246866 with status 201
+2023-11-08 16:51:11,092 - basicLogger - INFO - Received event <upload_operation> with a trace id of 9512270
+2023-11-08 16:51:11,139 - basicLogger - INFO - Received event <upload_operation> with a trace id of 342449062
+2023-11-08 16:51:11,152 - basicLogger - INFO - Returned event <upload_operation> reponse 491642979 with status 201
+2023-11-08 16:51:11,199 - basicLogger - INFO - Received event <upload_operation> with a trace id of 879504470
+2023-11-08 16:51:11,326 - basicLogger - INFO - Returned event <upload_operation> reponse 171197154 with status 201
+2023-11-08 16:51:11,370 - basicLogger - INFO - Received event <upload_operation> with a trace id of 9915480
+2023-11-08 16:51:11,426 - basicLogger - INFO - Returned event <upload_operation> reponse 9512270 with status 201
+2023-11-08 16:51:11,467 - basicLogger - INFO - Returned event <upload_operation> reponse 342449062 with status 201
+2023-11-08 16:51:11,495 - basicLogger - INFO - Received event <upload_operation> with a trace id of 682741611
+2023-11-08 16:51:11,521 - basicLogger - INFO - Returned event <upload_operation> reponse 879504470 with status 201
+2023-11-08 16:51:11,652 - basicLogger - INFO - Returned event <upload_operation> reponse 9915480 with status 201
+2023-11-08 16:51:11,794 - basicLogger - INFO - Returned event <upload_operation> reponse 682741611 with status 201
+2023-11-08 16:51:15,932 - basicLogger - INFO - Received event <report_conflict> with a trace id of 381950554
+2023-11-08 16:51:16,040 - basicLogger - INFO - Received event <report_conflict> with a trace id of 377089580
+2023-11-08 16:51:16,093 - basicLogger - INFO - Received event <report_conflict> with a trace id of 871181617
+2023-11-08 16:51:16,165 - basicLogger - INFO - Received event <report_conflict> with a trace id of 81976744
+2023-11-08 16:51:16,201 - basicLogger - INFO - Returned event <report_conflict> reponse 381950554 with status 201
+2023-11-08 16:51:16,337 - basicLogger - INFO - Received event <report_conflict> with a trace id of 236484698
+2023-11-08 16:51:16,343 - basicLogger - INFO - Returned event <report_conflict> reponse 377089580 with status 201
+2023-11-08 16:51:16,353 - basicLogger - INFO - Returned event <report_conflict> reponse 871181617 with status 201
+2023-11-08 16:51:16,430 - basicLogger - INFO - Received event <report_conflict> with a trace id of 117256736
+2023-11-08 16:51:16,477 - basicLogger - INFO - Received event <report_conflict> with a trace id of 47423531
+2023-11-08 16:51:16,478 - basicLogger - INFO - Returned event <report_conflict> reponse 81976744 with status 201
+2023-11-08 16:51:16,538 - basicLogger - INFO - Received event <report_conflict> with a trace id of 937944421
+2023-11-08 16:51:16,630 - basicLogger - INFO - Returned event <report_conflict> reponse 236484698 with status 201
+2023-11-08 16:51:16,663 - basicLogger - INFO - Received event <report_conflict> with a trace id of 319646026
+2023-11-08 16:51:16,708 - basicLogger - INFO - Returned event <report_conflict> reponse 117256736 with status 201
+2023-11-08 16:51:16,739 - basicLogger - INFO - Returned event <report_conflict> reponse 47423531 with status 201
+2023-11-08 16:51:16,803 - basicLogger - INFO - Received event <report_conflict> with a trace id of 289393876
+2023-11-08 16:51:16,803 - basicLogger - INFO - Returned event <report_conflict> reponse 937944421 with status 201
+2023-11-08 16:51:16,933 - basicLogger - INFO - Returned event <report_conflict> reponse 319646026 with status 201
+2023-11-08 16:51:17,066 - basicLogger - INFO - Returned event <report_conflict> reponse 289393876 with status 201
+2023-11-08 16:51:21,218 - basicLogger - INFO - Received event <upload_operation> with a trace id of 233442779
+2023-11-08 16:51:21,358 - basicLogger - INFO - Received event <upload_operation> with a trace id of 106587975
+2023-11-08 16:51:21,361 - basicLogger - INFO - Received event <upload_operation> with a trace id of 236559471
+2023-11-08 16:51:21,483 - basicLogger - INFO - Received event <upload_operation> with a trace id of 311053640
+2023-11-08 16:51:21,543 - basicLogger - INFO - Returned event <upload_operation> reponse 233442779 with status 201
+2023-11-08 16:51:21,639 - basicLogger - INFO - Received event <upload_operation> with a trace id of 572014835
+2023-11-08 16:51:21,693 - basicLogger - INFO - Returned event <upload_operation> reponse 106587975 with status 201
+2023-11-08 16:51:21,696 - basicLogger - INFO - Returned event <upload_operation> reponse 236559471 with status 201
+2023-11-08 16:51:21,717 - basicLogger - INFO - Received event <upload_operation> with a trace id of 283919463
+2023-11-08 16:51:21,748 - basicLogger - INFO - Received event <upload_operation> with a trace id of 869435285
+2023-11-08 16:51:21,790 - basicLogger - INFO - Returned event <upload_operation> reponse 311053640 with status 201
+2023-11-08 16:51:21,812 - basicLogger - INFO - Received event <upload_operation> with a trace id of 442470921
+2023-11-08 16:51:21,901 - basicLogger - INFO - Returned event <upload_operation> reponse 572014835 with status 201
+2023-11-08 16:51:21,951 - basicLogger - INFO - Received event <upload_operation> with a trace id of 132722000
+2023-11-08 16:51:21,998 - basicLogger - INFO - Returned event <upload_operation> reponse 283919463 with status 201
+2023-11-08 16:51:21,999 - basicLogger - INFO - Returned event <upload_operation> reponse 869435285 with status 201
+2023-11-08 16:51:22,077 - basicLogger - INFO - Received event <upload_operation> with a trace id of 664344608
+2023-11-08 16:51:22,079 - basicLogger - INFO - Returned event <upload_operation> reponse 442470921 with status 201
+2023-11-08 16:51:22,226 - basicLogger - INFO - Returned event <upload_operation> reponse 132722000 with status 201
+2023-11-08 16:51:22,349 - basicLogger - INFO - Returned event <upload_operation> reponse 664344608 with status 201
+2023-11-08 16:51:26,562 - basicLogger - INFO - Received event <report_conflict> with a trace id of 160497493
+2023-11-08 16:51:26,703 - basicLogger - INFO - Received event <report_conflict> with a trace id of 452435441
+2023-11-08 16:51:26,704 - basicLogger - INFO - Received event <report_conflict> with a trace id of 332193208
+2023-11-08 16:51:26,794 - basicLogger - INFO - Received event <report_conflict> with a trace id of 92618816
+2023-11-08 16:51:26,826 - basicLogger - INFO - Returned event <report_conflict> reponse 160497493 with status 201
+2023-11-08 16:51:26,919 - basicLogger - INFO - Received event <report_conflict> with a trace id of 886009699
+2023-11-08 16:51:26,955 - basicLogger - INFO - Returned event <report_conflict> reponse 452435441 with status 201
+2023-11-08 16:51:26,980 - basicLogger - INFO - Returned event <report_conflict> reponse 332193208 with status 201
+2023-11-08 16:51:27,003 - basicLogger - INFO - Received event <report_conflict> with a trace id of 924930553
+2023-11-08 16:51:27,004 - basicLogger - INFO - Received event <report_conflict> with a trace id of 957496773
+2023-11-08 16:51:27,068 - basicLogger - INFO - Returned event <report_conflict> reponse 92618816 with status 201
+2023-11-08 16:51:27,100 - basicLogger - INFO - Received event <report_conflict> with a trace id of 523174932
+2023-11-08 16:51:27,198 - basicLogger - INFO - Returned event <report_conflict> reponse 886009699 with status 201
+2023-11-08 16:51:27,245 - basicLogger - INFO - Received event <report_conflict> with a trace id of 562641347
+2023-11-08 16:51:27,279 - basicLogger - INFO - Returned event <report_conflict> reponse 924930553 with status 201
+2023-11-08 16:51:27,325 - basicLogger - INFO - Returned event <report_conflict> reponse 957496773 with status 201
+2023-11-08 16:51:27,357 - basicLogger - INFO - Returned event <report_conflict> reponse 523174932 with status 201
+2023-11-08 16:51:27,363 - basicLogger - INFO - Received event <report_conflict> with a trace id of 431502473
+2023-11-08 16:51:27,518 - basicLogger - INFO - Returned event <report_conflict> reponse 562641347 with status 201
+2023-11-08 16:51:27,617 - basicLogger - INFO - Returned event <report_conflict> reponse 431502473 with status 201
+2023-11-08 16:51:31,831 - basicLogger - INFO - Received event <upload_operation> with a trace id of 535173439
+2023-11-08 16:51:31,972 - basicLogger - INFO - Received event <upload_operation> with a trace id of 172531646
+2023-11-08 16:51:31,987 - basicLogger - INFO - Received event <upload_operation> with a trace id of 745666773
+2023-11-08 16:51:32,081 - basicLogger - INFO - Received event <upload_operation> with a trace id of 273427424
+2023-11-08 16:51:32,100 - basicLogger - INFO - Returned event <upload_operation> reponse 535173439 with status 201
+2023-11-08 16:51:32,205 - basicLogger - INFO - Received event <upload_operation> with a trace id of 23044438
+2023-11-08 16:51:32,219 - basicLogger - INFO - Returned event <upload_operation> reponse 172531646 with status 201
+2023-11-08 16:51:32,229 - basicLogger - INFO - Returned event <upload_operation> reponse 745666773 with status 201
+2023-11-08 16:51:32,288 - basicLogger - INFO - Received event <upload_operation> with a trace id of 789561270
+2023-11-08 16:51:32,331 - basicLogger - INFO - Received event <upload_operation> with a trace id of 102093724
+2023-11-08 16:51:32,338 - basicLogger - INFO - Returned event <upload_operation> reponse 273427424 with status 201
+2023-11-08 16:51:32,362 - basicLogger - INFO - Received event <upload_operation> with a trace id of 486887216
+2023-11-08 16:51:32,506 - basicLogger - INFO - Returned event <upload_operation> reponse 23044438 with status 201
+2023-11-08 16:51:32,531 - basicLogger - INFO - Received event <upload_operation> with a trace id of 417354136
+2023-11-08 16:51:32,596 - basicLogger - INFO - Returned event <upload_operation> reponse 789561270 with status 201
+2023-11-08 16:51:32,601 - basicLogger - INFO - Returned event <upload_operation> reponse 102093724 with status 201
+2023-11-08 16:51:32,627 - basicLogger - INFO - Received event <upload_operation> with a trace id of 347146483
+2023-11-08 16:51:32,640 - basicLogger - INFO - Returned event <upload_operation> reponse 486887216 with status 201
+2023-11-08 16:51:32,811 - basicLogger - INFO - Returned event <upload_operation> reponse 417354136 with status 201
+2023-11-08 16:51:32,892 - basicLogger - INFO - Returned event <upload_operation> reponse 347146483 with status 201
+2023-11-08 16:51:37,118 - basicLogger - INFO - Received event <report_conflict> with a trace id of 477250743
+2023-11-08 16:51:37,233 - basicLogger - INFO - Received event <report_conflict> with a trace id of 489689302
+2023-11-08 16:51:37,244 - basicLogger - INFO - Received event <report_conflict> with a trace id of 193707800
+2023-11-08 16:51:37,352 - basicLogger - INFO - Received event <report_conflict> with a trace id of 833488984
+2023-11-08 16:51:37,387 - basicLogger - INFO - Returned event <report_conflict> reponse 477250743 with status 201
+2023-11-08 16:51:37,483 - basicLogger - INFO - Returned event <report_conflict> reponse 489689302 with status 201
+2023-11-08 16:51:37,487 - basicLogger - INFO - Returned event <report_conflict> reponse 193707800 with status 201
+2023-11-08 16:51:37,523 - basicLogger - INFO - Received event <report_conflict> with a trace id of 901606492
+2023-11-08 16:51:37,603 - basicLogger - INFO - Received event <report_conflict> with a trace id of 8574378
+2023-11-08 16:51:37,603 - basicLogger - INFO - Returned event <report_conflict> reponse 833488984 with status 201
+2023-11-08 16:51:37,618 - basicLogger - INFO - Received event <report_conflict> with a trace id of 808081474
+2023-11-08 16:51:37,647 - basicLogger - INFO - Received event <report_conflict> with a trace id of 693620732
+2023-11-08 16:51:37,819 - basicLogger - INFO - Received event <report_conflict> with a trace id of 666933766
+2023-11-08 16:51:37,823 - basicLogger - INFO - Returned event <report_conflict> reponse 901606492 with status 201
+2023-11-08 16:51:37,849 - basicLogger - INFO - Returned event <report_conflict> reponse 8574378 with status 201
+2023-11-08 16:51:37,897 - basicLogger - INFO - Received event <report_conflict> with a trace id of 322757314
+2023-11-08 16:51:37,912 - basicLogger - INFO - Returned event <report_conflict> reponse 808081474 with status 201
+2023-11-08 16:51:37,931 - basicLogger - INFO - Returned event <report_conflict> reponse 693620732 with status 201
+2023-11-08 16:51:38,136 - basicLogger - INFO - Returned event <report_conflict> reponse 666933766 with status 201
+2023-11-08 16:51:38,189 - basicLogger - INFO - Returned event <report_conflict> reponse 322757314 with status 201
+2023-11-08 16:51:42,402 - basicLogger - INFO - Received event <upload_operation> with a trace id of 706441974
+2023-11-08 16:51:42,495 - basicLogger - INFO - Received event <upload_operation> with a trace id of 908603038
+2023-11-08 16:51:42,496 - basicLogger - INFO - Received event <upload_operation> with a trace id of 739381086
+2023-11-08 16:51:42,618 - basicLogger - INFO - Received event <upload_operation> with a trace id of 659926484
+2023-11-08 16:51:42,714 - basicLogger - INFO - Returned event <upload_operation> reponse 706441974 with status 201
+2023-11-08 16:51:42,769 - basicLogger - INFO - Returned event <upload_operation> reponse 908603038 with status 201
+2023-11-08 16:51:42,771 - basicLogger - INFO - Returned event <upload_operation> reponse 739381086 with status 201
+2023-11-08 16:51:42,835 - basicLogger - INFO - Received event <upload_operation> with a trace id of 605430003
+2023-11-08 16:51:42,869 - basicLogger - INFO - Received event <upload_operation> with a trace id of 672781605
+2023-11-08 16:51:42,874 - basicLogger - INFO - Returned event <upload_operation> reponse 659926484 with status 201
+2023-11-08 16:51:42,927 - basicLogger - INFO - Received event <upload_operation> with a trace id of 186815914
+2023-11-08 16:51:42,937 - basicLogger - INFO - Received event <upload_operation> with a trace id of 109532571
+2023-11-08 16:51:43,091 - basicLogger - INFO - Returned event <upload_operation> reponse 605430003 with status 201
+2023-11-08 16:51:43,130 - basicLogger - INFO - Returned event <upload_operation> reponse 672781605 with status 201
+2023-11-08 16:51:43,152 - basicLogger - INFO - Received event <upload_operation> with a trace id of 937304505
+2023-11-08 16:51:43,201 - basicLogger - INFO - Received event <upload_operation> with a trace id of 271461562
+2023-11-08 16:51:43,202 - basicLogger - INFO - Returned event <upload_operation> reponse 109532571 with status 201
+2023-11-08 16:51:43,215 - basicLogger - INFO - Returned event <upload_operation> reponse 186815914 with status 201
+2023-11-08 16:51:43,414 - basicLogger - INFO - Returned event <upload_operation> reponse 937304505 with status 201
+2023-11-08 16:51:43,489 - basicLogger - INFO - Returned event <upload_operation> reponse 271461562 with status 201
+2023-11-08 16:51:47,728 - basicLogger - INFO - Received event <report_conflict> with a trace id of 196370026
+2023-11-08 16:51:47,775 - basicLogger - INFO - Received event <report_conflict> with a trace id of 988171310
+2023-11-08 16:51:47,776 - basicLogger - INFO - Received event <report_conflict> with a trace id of 550024924
+2023-11-08 16:51:47,884 - basicLogger - INFO - Received event <report_conflict> with a trace id of 187240211
+2023-11-08 16:51:47,994 - basicLogger - INFO - Returned event <report_conflict> reponse 196370026 with status 201
+2023-11-08 16:51:48,026 - basicLogger - INFO - Returned event <report_conflict> reponse 988171310 with status 201
+2023-11-08 16:51:48,026 - basicLogger - INFO - Returned event <report_conflict> reponse 550024924 with status 201
+2023-11-08 16:51:48,103 - basicLogger - INFO - Received event <report_conflict> with a trace id of 380198885
+2023-11-08 16:51:48,129 - basicLogger - INFO - Returned event <report_conflict> reponse 187240211 with status 201
+2023-11-08 16:51:48,134 - basicLogger - INFO - Received event <report_conflict> with a trace id of 656736257
+2023-11-08 16:51:48,211 - basicLogger - INFO - Received event <report_conflict> with a trace id of 955643201
+2023-11-08 16:51:48,228 - basicLogger - INFO - Received event <report_conflict> with a trace id of 981077822
+2023-11-08 16:51:48,385 - basicLogger - INFO - Returned event <report_conflict> reponse 380198885 with status 201
+2023-11-08 16:51:48,419 - basicLogger - INFO - Returned event <report_conflict> reponse 656736257 with status 201
+2023-11-08 16:51:48,429 - basicLogger - INFO - Received event <report_conflict> with a trace id of 729538428
+2023-11-08 16:51:48,489 - basicLogger - INFO - Returned event <report_conflict> reponse 955643201 with status 201
+2023-11-08 16:51:48,505 - basicLogger - INFO - Received event <report_conflict> with a trace id of 703377697
+2023-11-08 16:51:48,555 - basicLogger - INFO - Returned event <report_conflict> reponse 981077822 with status 201
+2023-11-08 16:51:48,738 - basicLogger - INFO - Returned event <report_conflict> reponse 729538428 with status 201
+2023-11-08 16:51:48,818 - basicLogger - INFO - Returned event <report_conflict> reponse 703377697 with status 201
+2023-11-08 16:51:53,002 - basicLogger - INFO - Received event <upload_operation> with a trace id of 384586699
+2023-11-08 16:51:53,034 - basicLogger - INFO - Received event <upload_operation> with a trace id of 348261926
+2023-11-08 16:51:53,037 - basicLogger - INFO - Received event <upload_operation> with a trace id of 837646738
+2023-11-08 16:51:53,141 - basicLogger - INFO - Received event <upload_operation> with a trace id of 951470225
+2023-11-08 16:51:53,253 - basicLogger - INFO - Returned event <upload_operation> reponse 384586699 with status 201
+2023-11-08 16:51:53,284 - basicLogger - INFO - Returned event <upload_operation> reponse 348261926 with status 201
+2023-11-08 16:51:53,304 - basicLogger - INFO - Returned event <upload_operation> reponse 837646738 with status 201
+2023-11-08 16:51:53,389 - basicLogger - INFO - Received event <upload_operation> with a trace id of 845452832
+2023-11-08 16:51:53,389 - basicLogger - INFO - Returned event <upload_operation> reponse 951470225 with status 201
+2023-11-08 16:51:53,436 - basicLogger - INFO - Received event <upload_operation> with a trace id of 373349030
+2023-11-08 16:51:53,497 - basicLogger - INFO - Received event <upload_operation> with a trace id of 460952539
+2023-11-08 16:51:53,559 - basicLogger - INFO - Received event <upload_operation> with a trace id of 146365608
+2023-11-08 16:51:53,639 - basicLogger - INFO - Returned event <upload_operation> reponse 845452832 with status 201
+2023-11-08 16:51:53,726 - basicLogger - INFO - Returned event <upload_operation> reponse 373349030 with status 201
+2023-11-08 16:51:53,748 - basicLogger - INFO - Received event <upload_operation> with a trace id of 794385245
+2023-11-08 16:51:53,778 - basicLogger - INFO - Returned event <upload_operation> reponse 460952539 with status 201
+2023-11-08 16:51:53,826 - basicLogger - INFO - Received event <upload_operation> with a trace id of 483242460
+2023-11-08 16:51:53,876 - basicLogger - INFO - Returned event <upload_operation> reponse 146365608 with status 201
+2023-11-08 16:51:54,091 - basicLogger - INFO - Returned event <upload_operation> reponse 794385245 with status 201
+2023-11-08 16:51:54,169 - basicLogger - INFO - Returned event <upload_operation> reponse 483242460 with status 201
+2023-11-08 16:51:58,270 - basicLogger - INFO - Received event <report_conflict> with a trace id of 816475026
+2023-11-08 16:51:58,304 - basicLogger - INFO - Received event <report_conflict> with a trace id of 890184712
+2023-11-08 16:51:58,318 - basicLogger - INFO - Received event <report_conflict> with a trace id of 292459238
+2023-11-08 16:51:58,394 - basicLogger - INFO - Received event <report_conflict> with a trace id of 592164821
+2023-11-08 16:51:58,560 - basicLogger - INFO - Returned event <report_conflict> reponse 816475026 with status 201
+2023-11-08 16:51:58,614 - basicLogger - INFO - Returned event <report_conflict> reponse 890184712 with status 201
+2023-11-08 16:51:58,615 - basicLogger - INFO - Returned event <report_conflict> reponse 292459238 with status 201
+2023-11-08 16:51:58,657 - basicLogger - INFO - Received event <report_conflict> with a trace id of 387772719
+2023-11-08 16:51:58,686 - basicLogger - INFO - Returned event <report_conflict> reponse 592164821 with status 201
+2023-11-08 16:51:58,734 - basicLogger - INFO - Received event <report_conflict> with a trace id of 567574013
+2023-11-08 16:51:58,797 - basicLogger - INFO - Received event <report_conflict> with a trace id of 219468486
+2023-11-08 16:51:58,889 - basicLogger - INFO - Received event <report_conflict> with a trace id of 783708237
+2023-11-08 16:51:59,018 - basicLogger - INFO - Returned event <report_conflict> reponse 387772719 with status 201
+2023-11-08 16:51:59,095 - basicLogger - INFO - Received event <report_conflict> with a trace id of 582603003
+2023-11-08 16:51:59,104 - basicLogger - INFO - Returned event <report_conflict> reponse 567574013 with status 201
+2023-11-08 16:51:59,145 - basicLogger - INFO - Returned event <report_conflict> reponse 219468486 with status 201
+2023-11-08 16:51:59,186 - basicLogger - INFO - Received event <report_conflict> with a trace id of 281418442
+2023-11-08 16:51:59,196 - basicLogger - INFO - Returned event <report_conflict> reponse 783708237 with status 201
+2023-11-08 16:51:59,348 - basicLogger - INFO - Returned event <report_conflict> reponse 582603003 with status 201
+2023-11-08 16:51:59,443 - basicLogger - INFO - Returned event <report_conflict> reponse 281418442 with status 201
+2023-11-08 16:52:03,576 - basicLogger - INFO - Received event <upload_operation> with a trace id of 341907181
+2023-11-08 16:52:03,635 - basicLogger - INFO - Received event <upload_operation> with a trace id of 357403001
+2023-11-08 16:52:03,639 - basicLogger - INFO - Received event <upload_operation> with a trace id of 205693542
+2023-11-08 16:52:03,702 - basicLogger - INFO - Received event <upload_operation> with a trace id of 927821150
+2023-11-08 16:52:03,840 - basicLogger - INFO - Returned event <upload_operation> reponse 341907181 with status 201
+2023-11-08 16:52:03,898 - basicLogger - INFO - Returned event <upload_operation> reponse 205693542 with status 201
+2023-11-08 16:52:03,925 - basicLogger - INFO - Returned event <upload_operation> reponse 357403001 with status 201
+2023-11-08 16:52:04,029 - basicLogger - INFO - Received event <upload_operation> with a trace id of 512157978
+2023-11-08 16:52:04,047 - basicLogger - INFO - Returned event <upload_operation> reponse 927821150 with status 201
+2023-11-08 16:52:04,121 - basicLogger - INFO - Received event <upload_operation> with a trace id of 667849724
+2023-11-08 16:52:04,154 - basicLogger - INFO - Received event <upload_operation> with a trace id of 85198366
+2023-11-08 16:52:04,212 - basicLogger - INFO - Received event <upload_operation> with a trace id of 103045513
+2023-11-08 16:52:04,325 - basicLogger - INFO - Returned event <upload_operation> reponse 512157978 with status 201
+2023-11-08 16:52:04,355 - basicLogger - INFO - Received event <upload_operation> with a trace id of 626208959
+2023-11-08 16:52:04,391 - basicLogger - INFO - Returned event <upload_operation> reponse 667849724 with status 201
+2023-11-08 16:52:04,419 - basicLogger - INFO - Returned event <upload_operation> reponse 85198366 with status 201
+2023-11-08 16:52:04,461 - basicLogger - INFO - Received event <upload_operation> with a trace id of 921604951
+2023-11-08 16:52:04,467 - basicLogger - INFO - Returned event <upload_operation> reponse 103045513 with status 201
+2023-11-08 16:52:04,634 - basicLogger - INFO - Returned event <upload_operation> reponse 626208959 with status 201
+2023-11-08 16:52:04,744 - basicLogger - INFO - Returned event <upload_operation> reponse 921604951 with status 201
+2023-11-08 16:52:08,846 - basicLogger - INFO - Received event <report_conflict> with a trace id of 363365299
+2023-11-08 16:52:08,909 - basicLogger - INFO - Received event <report_conflict> with a trace id of 515496101
+2023-11-08 16:52:08,939 - basicLogger - INFO - Received event <report_conflict> with a trace id of 329462191
+2023-11-08 16:52:09,064 - basicLogger - INFO - Received event <report_conflict> with a trace id of 89802292
+2023-11-08 16:52:09,156 - basicLogger - INFO - Returned event <report_conflict> reponse 363365299 with status 201
+2023-11-08 16:52:09,240 - basicLogger - INFO - Returned event <report_conflict> reponse 515496101 with status 201
+2023-11-08 16:52:09,241 - basicLogger - INFO - Returned event <report_conflict> reponse 329462191 with status 201
+2023-11-08 16:52:09,344 - basicLogger - INFO - Received event <report_conflict> with a trace id of 884972046
+2023-11-08 16:52:09,357 - basicLogger - INFO - Returned event <report_conflict> reponse 89802292 with status 201
+2023-11-08 16:52:09,407 - basicLogger - INFO - Received event <report_conflict> with a trace id of 417692724
+2023-11-08 16:52:09,438 - basicLogger - INFO - Received event <report_conflict> with a trace id of 104753982
+2023-11-08 16:52:09,494 - basicLogger - INFO - Received event <report_conflict> with a trace id of 9382510
+2023-11-08 16:52:09,644 - basicLogger - INFO - Received event <report_conflict> with a trace id of 1356167
+2023-11-08 16:52:09,682 - basicLogger - INFO - Returned event <report_conflict> reponse 884972046 with status 201
+2023-11-08 16:52:09,725 - basicLogger - INFO - Returned event <report_conflict> reponse 417692724 with status 201
+2023-11-08 16:52:09,752 - basicLogger - INFO - Received event <report_conflict> with a trace id of 296768458
+2023-11-08 16:52:09,785 - basicLogger - INFO - Returned event <report_conflict> reponse 104753982 with status 201
+2023-11-08 16:52:09,844 - basicLogger - INFO - Returned event <report_conflict> reponse 9382510 with status 201
+2023-11-08 16:52:10,012 - basicLogger - INFO - Returned event <report_conflict> reponse 1356167 with status 201
+2023-11-08 16:52:10,085 - basicLogger - INFO - Returned event <report_conflict> reponse 296768458 with status 201
+2023-11-08 16:52:14,168 - basicLogger - INFO - Received event <upload_operation> with a trace id of 580136169
+2023-11-08 16:52:14,247 - basicLogger - INFO - Received event <upload_operation> with a trace id of 400233136
+2023-11-08 16:52:14,250 - basicLogger - INFO - Received event <upload_operation> with a trace id of 803229457
+2023-11-08 16:52:14,381 - basicLogger - INFO - Received event <upload_operation> with a trace id of 554500377
+2023-11-08 16:52:14,425 - basicLogger - INFO - Returned event <upload_operation> reponse 580136169 with status 201
+2023-11-08 16:52:14,527 - basicLogger - INFO - Returned event <upload_operation> reponse 400233136 with status 201
+2023-11-08 16:52:14,527 - basicLogger - INFO - Returned event <upload_operation> reponse 803229457 with status 201
+2023-11-08 16:52:14,652 - basicLogger - INFO - Returned event <upload_operation> reponse 554500377 with status 201
+2023-11-08 16:52:14,688 - basicLogger - INFO - Received event <upload_operation> with a trace id of 470578075
+2023-11-08 16:52:14,737 - basicLogger - INFO - Received event <upload_operation> with a trace id of 705350955
+2023-11-08 16:52:14,800 - basicLogger - INFO - Received event <upload_operation> with a trace id of 856072656
+2023-11-08 16:52:14,874 - basicLogger - INFO - Received event <upload_operation> with a trace id of 224063065
+2023-11-08 16:52:15,007 - basicLogger - INFO - Returned event <upload_operation> reponse 470578075 with status 201
+2023-11-08 16:52:15,020 - basicLogger - INFO - Received event <upload_operation> with a trace id of 418059301
+2023-11-08 16:52:15,022 - basicLogger - INFO - Returned event <upload_operation> reponse 705350955 with status 201
+2023-11-08 16:52:15,074 - basicLogger - INFO - Returned event <upload_operation> reponse 856072656 with status 201
+2023-11-08 16:52:15,128 - basicLogger - INFO - Received event <upload_operation> with a trace id of 474172992
+2023-11-08 16:52:15,163 - basicLogger - INFO - Returned event <upload_operation> reponse 224063065 with status 201
+2023-11-08 16:52:15,281 - basicLogger - INFO - Returned event <upload_operation> reponse 418059301 with status 201
+2023-11-08 16:52:15,389 - basicLogger - INFO - Returned event <upload_operation> reponse 474172992 with status 201
+2023-11-08 16:52:19,439 - basicLogger - INFO - Received event <report_conflict> with a trace id of 330967611
+2023-11-08 16:52:19,533 - basicLogger - INFO - Received event <report_conflict> with a trace id of 367188853
+2023-11-08 16:52:19,534 - basicLogger - INFO - Received event <report_conflict> with a trace id of 101876860
+2023-11-08 16:52:19,658 - basicLogger - INFO - Received event <report_conflict> with a trace id of 694159406
+2023-11-08 16:52:19,712 - basicLogger - INFO - Returned event <report_conflict> reponse 330967611 with status 201
+2023-11-08 16:52:19,804 - basicLogger - INFO - Returned event <report_conflict> reponse 367188853 with status 201
+2023-11-08 16:52:19,807 - basicLogger - INFO - Returned event <report_conflict> reponse 101876860 with status 201
+2023-11-08 16:52:19,909 - basicLogger - INFO - Returned event <report_conflict> reponse 694159406 with status 201
+2023-11-08 16:52:20,017 - basicLogger - INFO - Received event <report_conflict> with a trace id of 809113748
+2023-11-08 16:52:20,033 - basicLogger - INFO - Received event <report_conflict> with a trace id of 685335500
+2023-11-08 16:52:20,080 - basicLogger - INFO - Received event <report_conflict> with a trace id of 471431171
+2023-11-08 16:52:20,181 - basicLogger - INFO - Received event <report_conflict> with a trace id of 507956699
+2023-11-08 16:52:20,277 - basicLogger - INFO - Returned event <report_conflict> reponse 809113748 with status 201
+2023-11-08 16:52:20,285 - basicLogger - INFO - Returned event <report_conflict> reponse 685335500 with status 201
+2023-11-08 16:52:20,296 - basicLogger - INFO - Received event <report_conflict> with a trace id of 542266998
+2023-11-08 16:52:20,363 - basicLogger - INFO - Returned event <report_conflict> reponse 471431171 with status 201
+2023-11-08 16:52:20,408 - basicLogger - INFO - Received event <report_conflict> with a trace id of 25788631
+2023-11-08 16:52:20,479 - basicLogger - INFO - Returned event <report_conflict> reponse 507956699 with status 201
+2023-11-08 16:52:20,607 - basicLogger - INFO - Returned event <report_conflict> reponse 542266998 with status 201
+2023-11-08 16:52:20,697 - basicLogger - INFO - Returned event <report_conflict> reponse 25788631 with status 201
+2023-11-08 16:52:24,730 - basicLogger - INFO - Received event <upload_operation> with a trace id of 339092581
+2023-11-08 16:52:24,807 - basicLogger - INFO - Received event <upload_operation> with a trace id of 211411303
+2023-11-08 16:52:24,824 - basicLogger - INFO - Received event <upload_operation> with a trace id of 559180779
+2023-11-08 16:52:24,917 - basicLogger - INFO - Received event <upload_operation> with a trace id of 98555135
+2023-11-08 16:52:24,994 - basicLogger - INFO - Returned event <upload_operation> reponse 339092581 with status 201
+2023-11-08 16:52:25,130 - basicLogger - INFO - Returned event <upload_operation> reponse 559180779 with status 201
+2023-11-08 16:52:25,132 - basicLogger - INFO - Returned event <upload_operation> reponse 211411303 with status 201
+2023-11-08 16:52:25,205 - basicLogger - INFO - Returned event <upload_operation> reponse 98555135 with status 201
+2023-11-08 16:52:25,295 - basicLogger - INFO - Received event <upload_operation> with a trace id of 503111581
+2023-11-08 16:52:25,306 - basicLogger - INFO - Received event <upload_operation> with a trace id of 444493720
+2023-11-08 16:52:25,389 - basicLogger - INFO - Received event <upload_operation> with a trace id of 855223973
+2023-11-08 16:52:25,491 - basicLogger - INFO - Received event <upload_operation> with a trace id of 139436677
+2023-11-08 16:52:25,628 - basicLogger - INFO - Received event <upload_operation> with a trace id of 278770689
+2023-11-08 16:52:25,636 - basicLogger - INFO - Returned event <upload_operation> reponse 444493720 with status 201
+2023-11-08 16:52:25,636 - basicLogger - INFO - Returned event <upload_operation> reponse 503111581 with status 201
+2023-11-08 16:52:25,686 - basicLogger - INFO - Returned event <upload_operation> reponse 855223973 with status 201
+2023-11-08 16:52:25,729 - basicLogger - INFO - Received event <upload_operation> with a trace id of 930291445
+2023-11-08 16:52:25,837 - basicLogger - INFO - Returned event <upload_operation> reponse 139436677 with status 201
+2023-11-08 16:52:25,942 - basicLogger - INFO - Returned event <upload_operation> reponse 278770689 with status 201
+2023-11-08 16:52:26,050 - basicLogger - INFO - Returned event <upload_operation> reponse 930291445 with status 201
