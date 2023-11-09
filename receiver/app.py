@@ -8,6 +8,7 @@ import random
 import json
 import  datetime
 from pykafka import KafkaClient
+import time
 
 ENDPOINT = 'http://localhost:8090'
 
@@ -19,14 +20,25 @@ with open('log_conf.yml', 'r') as f:
     logging.config.dictConfig(log_config)
 
 logger = logging.getLogger('basicLogger')
+max_retries = app_config["kafka"]["max_retries"]
+current_retry = 0
+while current_retry < max_retries:
+    try:
+        logger.info(f'Attempting to create Kafka Client. Retry count: {current_retry}')
+        client = KafkaClient(hosts=f'{app_config["events"]["hostname"]}:{app_config["events"]["port"]}')
+        topic = client.topics[str.encode(app_config['events']['topic'])]
+    except Exception as e:
+        logger.error(f'Kafka creation failed. Error:{str(e)}')
+        sleep_time = app_config['kafka']['sleep_time']
+        time.sleep(sleep_time)
+        current_retry +=1
+else:
+    logger.error("Max Retries reached. Could not connect to Kafka")
 
 def report_conflict(body):
-    headers = {'content-type': "application/json"}
     trace_id = random.randint(1000, 1000000000)
     body['trace_id'] = trace_id
     logger.info(f'Received event <report_conflict> with a trace id of {trace_id}')
-    client = KafkaClient(hosts=f'{app_config["events"]["hostname"]}:{app_config["events"]["port"]}')
-    topic = client.topics[str.encode(app_config['events']['topic'])]
     producer = topic.get_sync_producer()
     msg = { "type": "report_conflict",
         "datetime" :
@@ -41,12 +53,9 @@ def report_conflict(body):
     return NoContent, 201
 
 def upload_operation(body):
-    headers = {'content-type': "application/json"}
     trace_id = random.randint(1000, 1000000000)
     body['trace_id'] = trace_id
     logger.info(f'Received event <upload_operation> with a trace id of {trace_id}')
-    client = KafkaClient(hosts=f'{app_config["events"]["hostname"]}:{app_config["events"]["port"]}')
-    topic = client.topics[str.encode(app_config['events']['topic'])]
     producer = topic.get_sync_producer()
     msg = { "type": "upload_operation",
         "datetime" :

@@ -13,6 +13,8 @@ import json
 from pykafka import KafkaClient
 from pykafka.common import OffsetType
 from threading import Thread
+from sqlalchemy import and_
+import time
 
 with open('app_conf.yml', 'r') as f:
    app_config = yaml.safe_load(f.read())
@@ -29,13 +31,13 @@ Base.metadata.bind = DB_ENGINE
 DB_SESSION = sessionmaker(bind=DB_ENGINE)
 
 
-def get_conflict_report(timestamp):
+def get_conflict_report(timestamp, end_timestamp):
     session = DB_SESSION()
 
     timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%S.%f")
-    
+    end_timestamp_datetime = datetime.datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%S.%f")
 
-    readings = session.query(ReportConflict).filter(ReportConflict.date_created >= timestamp_datetime)
+    readings = session.query(ReportConflict).filter(and_(ReportConflict.date_created >= timestamp_datetime, ReportConflict.date_created < end_timestamp_datetime))
 
     results_list = []
 
@@ -48,12 +50,13 @@ def get_conflict_report(timestamp):
 
     return results_list, 200
 
-def get_operation_plan(timestamp):
+def get_operation_plan(timestamp, end_timestamp):
     session = DB_SESSION()
 
     timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%S.%f")
+    end_timestamp_datetime = datetime.datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%S.%f")
 
-    readings = session.query(UploadOperation).filter(UploadOperation.date_created >= timestamp_datetime)
+    readings = session.query(UploadOperation).filter(and_(UploadOperation.date_created >= timestamp_datetime, UploadOperation.date_created < end_timestamp_datetime))
 
     results_list = []
 
@@ -69,9 +72,23 @@ def get_operation_plan(timestamp):
 def process_messages():
     """Process event messages"""
     logger.info("Starting Processing")
-    hostname = f"{app_config['events']['hostname']}:{app_config['events']['port']}"
-    client = KafkaClient(hosts=hostname)
-    topic = client.topics[str.encode(app_config["events"]["topic"])]
+    max_retries = app_config["kafka"]["max_retries"]
+    current_retry = 0
+    while current_retry < max_retries:
+        try:
+            logger.info(f'Attempting to connect to Kafka. Retry count: {current_retry}')
+            hostname = f"{app_config['events']['hostname']}:{app_config['events']['port']}"
+            client = KafkaClient(hosts=hostname)
+            topic = client.topics[str.encode(app_config["events"]["topic"])]
+            break
+        except Exception as e:
+            logger.error(f'Connection to Kafka failed. Error:{str(e)}')
+
+            sleep_time = app_config['kafka']['sleep_time']
+            time.sleep(sleep_time)
+            current_retry +=1
+    else:
+        logger.error("Max Retries reached. Could not connect to Kafka")
     consumer = topic.get_simple_consumer(consumer_group=b'event_group',
                                          reset_offset_on_start=False,
                                          auto_offset_reset=OffsetType.LATEST)

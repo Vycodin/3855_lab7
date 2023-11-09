@@ -44,10 +44,12 @@ def populate_stats():
                         'max_blu_ships': 0,
                         'max_op_ships': 0,
                         'last_updated': "2023-10-12T11:06:15.894272"}
+    now = datetime.datetime.now()
+    timestamp = now.strftime('%Y-%m-%dT%H:%M:%S.%f')
         
     logger.info("start periodic processing")
-    response_conflicts = requests.get(f"{app_config['eventstore']['url']}/conflict/new_conflict", params={'timestamp':json_object['last_updated']})
-    response_operations = requests.get(f"{app_config['eventstore']['url']}/conflict/operation_plan", params = {'timestamp': json_object['last_updated']})
+    response_conflicts = requests.get(f"{app_config['eventstore']['url']}/conflict/new_conflict", params={'timestamp':json_object['last_updated'], 'end_timestamp':timestamp})
+    response_operations = requests.get(f"{app_config['eventstore']['url']}/conflict/operation_plan", params = {'timestamp': json_object['last_updated'], 'end_timestamp': timestamp})
     logger.info(f"There have been {len(response_conflicts.json())} conflict logs and {len(response_operations.json())} operations logged since {json_object['last_updated']}")
     if response_operations.status_code != 200:
         logger.error(f"Error from operations received: {response_operations.status_code}")
@@ -89,8 +91,7 @@ def populate_stats():
     else:
         max_blu_ships = json_object['max_blu_ships']
         max_op_ships = json_object['max_op_ships']
-    now = datetime.datetime.now()
-    timestamp = now.strftime('%Y-%m-%dT%H:%M:%S.%f')
+
     
     data_dict = {
         'num_conflicts': json_object['num_conflicts']+len(data_conflicts),
