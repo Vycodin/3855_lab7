@@ -17,6 +17,7 @@ export default function EndpointAudit(props) {
 				console.log("Received Audit Results for " + props.endpoint)
                 setLog(result);
                 setIsLoaded(true);
+                console.log(index);
             },(error) =>{
                 setError(error)
                 setIsLoaded(true);
@@ -32,7 +33,7 @@ export default function EndpointAudit(props) {
     } else if (isLoaded === false){
         return(<div>Loading...</div>)
     } else if (isLoaded === true){
-        
+        console.log('index at a later time' + index)
         return (
             <div>
                 <h3>{props.endpoint}-{index}</h3>
