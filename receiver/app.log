@@ -4937,3 +4937,794 @@
 2023-11-08 16:52:25,837 - basicLogger - INFO - Returned event <upload_operation> reponse 139436677 with status 201
 2023-11-08 16:52:25,942 - basicLogger - INFO - Returned event <upload_operation> reponse 278770689 with status 201
 2023-11-08 16:52:26,050 - basicLogger - INFO - Returned event <upload_operation> reponse 930291445 with status 201
+2023-11-17 21:46:09,262 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:09,518 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:09,770 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:09,997 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:10,225 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:10,517 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:10,753 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:11,051 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:11,293 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:11,573 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:11,862 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:12,085 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:12,328 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:12,557 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:12,827 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:13,055 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:13,373 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:13,618 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:13,862 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:14,112 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:14,370 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:14,615 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:14,864 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:15,119 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:15,359 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:15,579 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:15,835 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:16,060 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:16,329 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:16,570 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:16,850 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:17,063 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:17,313 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:17,633 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:17,876 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:18,105 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:18,299 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:18,538 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:18,855 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:19,113 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:19,339 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:19,627 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:19,953 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:20,180 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:20,400 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:20,627 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:20,870 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:21,185 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:21,418 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:21,649 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:21,942 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:22,203 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:22,474 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:22,707 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:22,952 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:23,229 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:23,508 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:23,751 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:23,985 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:24,306 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:24,598 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:24,830 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:25,073 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:25,292 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:25,521 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:25,798 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:26,005 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:26,215 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:26,451 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:26,667 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:26,931 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:27,362 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:27,632 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:27,879 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:28,147 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:28,478 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:28,740 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:28,974 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:29,214 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:29,787 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:30,005 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:30,269 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:30,527 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:30,774 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:31,086 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:31,331 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:31,532 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:31,772 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:32,078 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:32,304 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:32,542 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:32,841 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:33,124 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:33,367 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:33,617 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:33,833 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:34,095 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:34,345 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:35,032 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:35,467 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:35,712 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:35,961 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:36,242 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:36,492 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:36,726 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:36,953 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:37,184 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:37,831 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:38,062 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:38,290 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:38,525 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:38,803 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:39,103 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:39,393 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:39,718 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:40,071 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:40,395 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:40,733 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:41,018 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:41,311 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:41,687 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:41,989 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:42,293 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:42,539 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:42,816 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:43,044 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:43,289 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:46,544 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:46,801 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:47,057 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:47,272 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:47,495 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:47,739 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:47,962 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:48,211 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:48,472 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:48,707 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:48,947 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:49,183 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:49,557 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:49,813 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:50,029 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:50,232 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:50,474 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:50,731 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:50,959 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:51,182 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:51,460 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:51,795 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:52,007 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:52,262 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:52,575 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:52,807 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:53,092 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:53,327 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:53,578 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:53,802 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:54,039 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:54,272 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:54,473 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:54,727 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:54,983 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:55,243 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:55,482 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:56,320 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:56,633 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:56,848 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:57,091 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:57,733 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:57,970 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:58,196 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:58,441 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:58,675 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:58,959 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:59,190 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:59,480 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:59,700 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:46:59,920 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:00,172 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:00,432 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:00,688 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:00,920 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:01,161 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:01,451 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:01,749 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:02,055 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:02,289 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:02,546 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:02,852 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:03,099 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:03,350 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:03,625 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:03,932 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:04,174 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:04,436 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:04,670 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:04,876 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:05,155 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:05,423 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:05,694 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:05,910 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:06,142 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:06,402 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:06,741 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:07,230 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:07,477 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:07,741 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:07,951 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:08,288 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:08,497 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:08,821 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:09,032 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:09,251 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:09,577 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:09,789 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:10,067 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:10,284 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:10,522 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:10,789 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:11,060 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:11,324 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:11,678 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:11,929 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:12,127 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:12,399 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:12,625 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:12,850 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:13,082 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:13,310 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:13,584 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:13,830 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:14,067 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:14,334 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:14,554 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:14,824 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:15,080 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:15,294 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:15,528 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:15,949 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:16,155 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:16,417 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:16,730 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:16,984 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:17,317 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:17,587 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:17,822 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:18,073 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:18,330 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:18,545 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:18,780 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:19,030 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:19,323 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:19,648 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:19,872 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:20,101 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:20,322 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:20,623 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:20,905 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:21,153 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:21,374 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:21,680 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:22,007 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:22,229 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:22,498 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:22,992 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:23,261 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:23,482 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:23,726 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:23,968 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:24,218 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:24,496 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:24,759 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:24,977 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:25,300 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:25,550 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:25,802 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:26,049 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:26,302 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:26,534 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:26,813 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:27,877 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:28,168 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:28,391 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:28,655 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:28,968 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:29,224 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:29,480 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:29,725 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:29,946 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:30,191 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:30,432 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:30,671 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:30,896 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:31,123 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:31,350 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:31,580 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:31,868 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:32,180 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:32,388 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:32,653 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:32,894 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:33,161 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:33,377 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:33,599 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:33,845 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:34,048 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:34,376 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:34,631 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:34,866 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:35,070 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:35,391 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:35,641 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:35,860 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:36,173 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:36,473 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:36,753 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:36,978 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:37,230 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:37,484 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:37,743 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:38,013 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:38,291 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:38,773 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:39,110 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:39,416 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:39,744 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:40,075 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:40,464 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:40,830 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:41,070 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:41,304 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:41,604 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:41,944 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:42,222 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:42,544 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:42,777 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:42,994 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:43,210 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:43,555 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:43,812 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:44,025 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:44,336 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:44,565 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:44,826 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:45,071 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:45,330 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:45,612 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:45,865 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:46,164 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:46,476 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:46,706 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:46,958 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:47,243 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:47,604 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:49,549 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:49,908 - basicLogger - INFO - Succesful connection
+2023-11-17 21:47:49,964 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:50,210 - basicLogger - INFO - Succesful connection
+2023-11-17 21:47:50,961 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:51,244 - basicLogger - INFO - Succesful connection
+2023-11-17 21:47:51,277 - basicLogger - INFO - Attempting to create Kafka Client. Retry count: 0
+2023-11-17 21:47:51,571 - basicLogger - INFO - Succesful connection
+2023-11-17 21:48:25,548 - basicLogger - INFO - Received event <report_conflict> with a trace id of 401461360
+2023-11-17 21:48:25,583 - basicLogger - INFO - Received event <report_conflict> with a trace id of 845765109
+2023-11-17 21:48:25,761 - basicLogger - INFO - Received event <report_conflict> with a trace id of 68951430
+2023-11-17 21:48:25,958 - basicLogger - INFO - Received event <report_conflict> with a trace id of 252528908
+2023-11-17 21:48:26,161 - basicLogger - INFO - Received event <report_conflict> with a trace id of 114910954
+2023-11-17 21:48:30,680 - basicLogger - INFO - Received event <upload_operation> with a trace id of 414423045
+2023-11-17 21:48:30,680 - basicLogger - INFO - Received event <upload_operation> with a trace id of 225183458
+2023-11-17 21:48:30,808 - basicLogger - INFO - Received event <upload_operation> with a trace id of 191705875
+2023-11-17 21:48:31,011 - basicLogger - INFO - Received event <upload_operation> with a trace id of 641221456
+2023-11-17 21:48:31,214 - basicLogger - INFO - Received event <upload_operation> with a trace id of 763103154
+2023-11-17 21:48:35,763 - basicLogger - INFO - Received event <report_conflict> with a trace id of 654424751
+2023-11-17 21:48:35,763 - basicLogger - INFO - Received event <report_conflict> with a trace id of 525048131
+2023-11-17 21:48:35,873 - basicLogger - INFO - Received event <report_conflict> with a trace id of 87214255
+2023-11-17 21:48:36,091 - basicLogger - INFO - Received event <report_conflict> with a trace id of 652560010
+2023-11-17 21:48:36,262 - basicLogger - INFO - Received event <report_conflict> with a trace id of 138109560
+2023-11-17 21:48:40,814 - basicLogger - INFO - Received event <upload_operation> with a trace id of 976829305
+2023-11-17 21:48:40,829 - basicLogger - INFO - Received event <upload_operation> with a trace id of 958323996
+2023-11-17 21:48:40,923 - basicLogger - INFO - Received event <upload_operation> with a trace id of 621263075
+2023-11-17 21:48:41,142 - basicLogger - INFO - Received event <upload_operation> with a trace id of 968942073
+2023-11-17 21:48:41,329 - basicLogger - INFO - Received event <upload_operation> with a trace id of 534073950
+2023-11-17 21:48:45,919 - basicLogger - INFO - Received event <report_conflict> with a trace id of 662813808
+2023-11-17 21:48:45,924 - basicLogger - INFO - Received event <report_conflict> with a trace id of 846904234
+2023-11-17 21:48:45,979 - basicLogger - INFO - Received event <report_conflict> with a trace id of 651393945
+2023-11-17 21:48:46,208 - basicLogger - INFO - Received event <report_conflict> with a trace id of 995823188
+2023-11-17 21:48:46,410 - basicLogger - INFO - Received event <report_conflict> with a trace id of 400344964
+2023-11-17 21:48:50,999 - basicLogger - INFO - Received event <upload_operation> with a trace id of 419806571
+2023-11-17 21:48:51,004 - basicLogger - INFO - Received event <upload_operation> with a trace id of 862195532
+2023-11-17 21:48:51,034 - basicLogger - INFO - Received event <upload_operation> with a trace id of 891449275
+2023-11-17 21:48:51,256 - basicLogger - INFO - Received event <upload_operation> with a trace id of 723933054
+2023-11-17 21:48:51,479 - basicLogger - INFO - Received event <upload_operation> with a trace id of 904355026
+2023-11-17 21:48:56,075 - basicLogger - INFO - Received event <report_conflict> with a trace id of 989857388
+2023-11-17 21:48:56,091 - basicLogger - INFO - Received event <report_conflict> with a trace id of 943289270
+2023-11-17 21:48:56,104 - basicLogger - INFO - Received event <report_conflict> with a trace id of 522858782
+2023-11-17 21:48:56,313 - basicLogger - INFO - Received event <report_conflict> with a trace id of 417693378
+2023-11-17 21:48:56,540 - basicLogger - INFO - Received event <report_conflict> with a trace id of 855024183
+2023-11-17 21:49:00,314 - basicLogger - INFO - Returned event <report_conflict> reponse 989857388 with status 201
+2023-11-17 21:49:00,485 - basicLogger - INFO - Returned event <report_conflict> reponse 943289270 with status 201
+2023-11-17 21:49:00,536 - basicLogger - INFO - Returned event <report_conflict> reponse 522858782 with status 201
+2023-11-17 21:49:00,588 - basicLogger - INFO - Returned event <report_conflict> reponse 417693378 with status 201
+2023-11-17 21:49:00,629 - basicLogger - INFO - Returned event <report_conflict> reponse 855024183 with status 201
+2023-11-17 21:49:05,325 - basicLogger - INFO - Received event <upload_operation> with a trace id of 226708964
+2023-11-17 21:49:05,498 - basicLogger - INFO - Received event <upload_operation> with a trace id of 772506125
+2023-11-17 21:49:05,539 - basicLogger - INFO - Received event <upload_operation> with a trace id of 79125322
+2023-11-17 21:49:05,601 - basicLogger - INFO - Received event <upload_operation> with a trace id of 701878899
+2023-11-17 21:49:05,638 - basicLogger - INFO - Received event <upload_operation> with a trace id of 762581802
+2023-11-17 21:49:06,885 - basicLogger - INFO - Returned event <upload_operation> reponse 226708964 with status 201
+2023-11-17 21:49:07,171 - basicLogger - INFO - Returned event <upload_operation> reponse 772506125 with status 201
+2023-11-17 21:49:08,495 - basicLogger - INFO - Returned event <upload_operation> reponse 79125322 with status 201
+2023-11-17 21:49:08,572 - basicLogger - INFO - Returned event <upload_operation> reponse 701878899 with status 201
+2023-11-17 21:49:08,624 - basicLogger - INFO - Returned event <upload_operation> reponse 762581802 with status 201
+2023-11-17 21:49:11,897 - basicLogger - INFO - Received event <report_conflict> with a trace id of 739592336
+2023-11-17 21:49:12,173 - basicLogger - INFO - Received event <report_conflict> with a trace id of 412078776
+2023-11-17 21:49:12,310 - basicLogger - INFO - Returned event <report_conflict> reponse 739592336 with status 201
+2023-11-17 21:49:12,433 - basicLogger - INFO - Returned event <report_conflict> reponse 412078776 with status 201
+2023-11-17 21:49:13,508 - basicLogger - INFO - Received event <report_conflict> with a trace id of 768718386
+2023-11-17 21:49:13,588 - basicLogger - INFO - Received event <report_conflict> with a trace id of 174127151
+2023-11-17 21:49:13,636 - basicLogger - INFO - Received event <report_conflict> with a trace id of 555130978
+2023-11-17 21:49:14,030 - basicLogger - INFO - Returned event <report_conflict> reponse 768718386 with status 201
+2023-11-17 21:49:14,435 - basicLogger - INFO - Returned event <report_conflict> reponse 174127151 with status 201
+2023-11-17 21:49:15,373 - basicLogger - INFO - Returned event <report_conflict> reponse 555130978 with status 201
+2023-11-17 21:49:17,333 - basicLogger - INFO - Received event <upload_operation> with a trace id of 536407200
+2023-11-17 21:49:17,449 - basicLogger - INFO - Received event <upload_operation> with a trace id of 593193863
+2023-11-17 21:49:19,040 - basicLogger - INFO - Received event <upload_operation> with a trace id of 24941129
+2023-11-17 21:49:19,121 - basicLogger - INFO - Returned event <upload_operation> reponse 536407200 with status 201
+2023-11-17 21:49:19,443 - basicLogger - INFO - Received event <upload_operation> with a trace id of 754263564
+2023-11-17 21:49:19,671 - basicLogger - INFO - Returned event <upload_operation> reponse 593193863 with status 201
+2023-11-17 21:49:20,383 - basicLogger - INFO - Received event <upload_operation> with a trace id of 112973260
+2023-11-17 21:49:23,961 - basicLogger - INFO - Returned event <upload_operation> reponse 24941129 with status 201
+2023-11-17 21:49:24,139 - basicLogger - INFO - Received event <report_conflict> with a trace id of 186069649
+2023-11-17 21:49:24,512 - basicLogger - INFO - Received event <report_conflict> with a trace id of 795280296
+2023-11-17 21:49:24,696 - basicLogger - INFO - Received event <report_conflict> with a trace id of 124579955
+2023-11-17 21:49:25,454 - basicLogger - INFO - Received event <report_conflict> with a trace id of 869028814
+2023-11-17 21:49:26,537 - basicLogger - INFO - Returned event <report_conflict> reponse 186069649 with status 201
+2023-11-17 21:49:26,775 - basicLogger - INFO - Returned event <report_conflict> reponse 795280296 with status 201
+2023-11-17 21:49:28,966 - basicLogger - INFO - Received event <report_conflict> with a trace id of 459554050
+2023-11-17 21:49:29,759 - basicLogger - INFO - Received event <upload_operation> with a trace id of 373431420
+2023-11-17 21:49:30,502 - basicLogger - INFO - Received event <upload_operation> with a trace id of 630437473
+2023-11-17 21:49:31,557 - basicLogger - INFO - Received event <upload_operation> with a trace id of 10187505
+2023-11-17 21:49:31,809 - basicLogger - INFO - Received event <upload_operation> with a trace id of 883525459
+2023-11-17 21:49:34,052 - basicLogger - INFO - Received event <upload_operation> with a trace id of 867989047
+2023-11-17 21:49:34,803 - basicLogger - INFO - Received event <report_conflict> with a trace id of 453591794
+2023-11-17 21:49:35,544 - basicLogger - INFO - Received event <report_conflict> with a trace id of 468196077
+2023-11-17 21:49:36,592 - basicLogger - INFO - Received event <report_conflict> with a trace id of 309782980
+2023-11-17 21:49:36,853 - basicLogger - INFO - Received event <report_conflict> with a trace id of 160339715
+2023-11-17 21:49:39,131 - basicLogger - INFO - Received event <report_conflict> with a trace id of 979764520
+2023-11-17 21:49:39,854 - basicLogger - INFO - Received event <upload_operation> with a trace id of 652105785
+2023-11-17 21:49:40,592 - basicLogger - INFO - Received event <upload_operation> with a trace id of 542189571
+2023-11-17 21:49:41,628 - basicLogger - INFO - Received event <upload_operation> with a trace id of 549803007
+2023-11-17 21:49:41,901 - basicLogger - INFO - Received event <upload_operation> with a trace id of 654586653
+2023-11-17 21:49:44,198 - basicLogger - INFO - Received event <upload_operation> with a trace id of 778509614
+2023-11-17 21:49:44,626 - basicLogger - INFO - Returned event <upload_operation> reponse 652105785 with status 201
+2023-11-17 21:49:44,678 - basicLogger - INFO - Returned event <upload_operation> reponse 542189571 with status 201
+2023-11-17 21:49:44,752 - basicLogger - INFO - Returned event <upload_operation> reponse 549803007 with status 201
+2023-11-17 21:49:44,841 - basicLogger - INFO - Returned event <upload_operation> reponse 654586653 with status 201
+2023-11-17 21:49:44,981 - basicLogger - INFO - Returned event <upload_operation> reponse 778509614 with status 201
+2023-11-17 21:49:49,628 - basicLogger - INFO - Received event <report_conflict> with a trace id of 77395992
+2023-11-17 21:49:49,683 - basicLogger - INFO - Received event <report_conflict> with a trace id of 995984786
+2023-11-17 21:49:49,766 - basicLogger - INFO - Received event <report_conflict> with a trace id of 836757975
+2023-11-17 21:49:49,843 - basicLogger - INFO - Received event <report_conflict> with a trace id of 961783098
+2023-11-17 21:49:49,988 - basicLogger - INFO - Received event <report_conflict> with a trace id of 374415492
+2023-11-17 21:49:53,147 - basicLogger - INFO - Returned event <report_conflict> reponse 77395992 with status 201
+2023-11-17 21:49:54,709 - basicLogger - INFO - Received event <upload_operation> with a trace id of 690172214
+2023-11-17 21:49:54,810 - basicLogger - INFO - Received event <upload_operation> with a trace id of 657957462
+2023-11-17 21:49:54,891 - basicLogger - INFO - Received event <upload_operation> with a trace id of 597159520
+2023-11-17 21:49:55,068 - basicLogger - INFO - Received event <upload_operation> with a trace id of 70074198
+2023-11-17 21:49:58,160 - basicLogger - INFO - Received event <upload_operation> with a trace id of 904665285
+2023-11-17 21:49:59,772 - basicLogger - INFO - Received event <report_conflict> with a trace id of 233529090
+2023-11-17 21:49:59,861 - basicLogger - INFO - Received event <report_conflict> with a trace id of 704076923
+2023-11-17 21:49:59,962 - basicLogger - INFO - Received event <report_conflict> with a trace id of 63825344
+2023-11-17 21:50:00,126 - basicLogger - INFO - Received event <report_conflict> with a trace id of 778144729
+2023-11-17 21:50:03,223 - basicLogger - INFO - Received event <report_conflict> with a trace id of 747207402
+2023-11-17 21:50:04,825 - basicLogger - INFO - Received event <upload_operation> with a trace id of 598078853
+2023-11-17 21:50:04,918 - basicLogger - INFO - Received event <upload_operation> with a trace id of 138890342
+2023-11-17 21:50:05,038 - basicLogger - INFO - Received event <upload_operation> with a trace id of 319214179
+2023-11-17 21:50:05,222 - basicLogger - INFO - Received event <upload_operation> with a trace id of 396791627
+2023-11-17 21:50:06,477 - basicLogger - INFO - Returned event <report_conflict> reponse 747207402 with status 201
+2023-11-17 21:50:06,523 - basicLogger - INFO - Returned event <upload_operation> reponse 598078853 with status 201
+2023-11-17 21:50:06,666 - basicLogger - INFO - Returned event <upload_operation> reponse 138890342 with status 201
+2023-11-17 21:50:06,783 - basicLogger - INFO - Returned event <upload_operation> reponse 319214179 with status 201
+2023-11-17 21:50:06,831 - basicLogger - INFO - Returned event <upload_operation> reponse 396791627 with status 201
+2023-11-17 21:50:11,491 - basicLogger - INFO - Received event <upload_operation> with a trace id of 599214819
+2023-11-17 21:50:11,527 - basicLogger - INFO - Received event <report_conflict> with a trace id of 477526579
+2023-11-17 21:50:11,672 - basicLogger - INFO - Returned event <upload_operation> reponse 599214819 with status 201
+2023-11-17 21:50:11,689 - basicLogger - INFO - Received event <report_conflict> with a trace id of 128165053
+2023-11-17 21:50:11,723 - basicLogger - INFO - Returned event <report_conflict> reponse 477526579 with status 201
+2023-11-17 21:50:11,762 - basicLogger - INFO - Returned event <report_conflict> reponse 128165053 with status 201
+2023-11-17 21:50:11,791 - basicLogger - INFO - Received event <report_conflict> with a trace id of 765680428
+2023-11-17 21:50:11,838 - basicLogger - INFO - Received event <report_conflict> with a trace id of 203172863
+2023-11-17 21:50:11,846 - basicLogger - INFO - Returned event <report_conflict> reponse 765680428 with status 201
+2023-11-17 21:50:11,890 - basicLogger - INFO - Returned event <report_conflict> reponse 203172863 with status 201
+2023-11-17 21:50:16,680 - basicLogger - INFO - Received event <report_conflict> with a trace id of 692027417
+2023-11-17 21:50:16,727 - basicLogger - INFO - Received event <upload_operation> with a trace id of 777889217
+2023-11-17 21:50:16,769 - basicLogger - INFO - Received event <upload_operation> with a trace id of 365733351
+2023-11-17 21:50:16,861 - basicLogger - INFO - Received event <upload_operation> with a trace id of 443578710
+2023-11-17 21:50:16,892 - basicLogger - INFO - Received event <upload_operation> with a trace id of 19626603
+2023-11-17 21:50:17,828 - basicLogger - INFO - Returned event <report_conflict> reponse 692027417 with status 201
+2023-11-17 21:50:18,033 - basicLogger - INFO - Returned event <upload_operation> reponse 777889217 with status 201
+2023-11-17 21:50:18,081 - basicLogger - INFO - Returned event <upload_operation> reponse 365733351 with status 201
+2023-11-17 21:50:18,129 - basicLogger - INFO - Returned event <upload_operation> reponse 443578710 with status 201
+2023-11-17 21:50:18,181 - basicLogger - INFO - Returned event <upload_operation> reponse 19626603 with status 201
+2023-11-17 21:50:22,829 - basicLogger - INFO - Received event <upload_operation> with a trace id of 925058443
+2023-11-17 21:50:24,175 - basicLogger - INFO - Returned event <upload_operation> reponse 925058443 with status 201
+2023-11-17 21:51:21,887 - basicLogger - INFO - Received event <report_conflict> with a trace id of 254275210
+2023-11-17 21:51:22,025 - basicLogger - INFO - Returned event <report_conflict> reponse 254275210 with status 201
+2023-11-17 21:51:22,089 - basicLogger - INFO - Received event <report_conflict> with a trace id of 816209206
+2023-11-17 21:51:22,201 - basicLogger - INFO - Returned event <report_conflict> reponse 816209206 with status 201
+2023-11-17 21:51:22,297 - basicLogger - INFO - Received event <report_conflict> with a trace id of 780794517
+2023-11-17 21:51:22,345 - basicLogger - INFO - Returned event <report_conflict> reponse 780794517 with status 201
+2023-11-17 21:51:22,483 - basicLogger - INFO - Received event <report_conflict> with a trace id of 484295581
+2023-11-17 21:51:22,527 - basicLogger - INFO - Returned event <report_conflict> reponse 484295581 with status 201
+2023-11-17 21:51:22,679 - basicLogger - INFO - Received event <report_conflict> with a trace id of 545867200
+2023-11-17 21:51:22,747 - basicLogger - INFO - Returned event <report_conflict> reponse 545867200 with status 201
+2023-11-17 21:51:27,028 - basicLogger - INFO - Received event <upload_operation> with a trace id of 932468312
+2023-11-17 21:51:27,211 - basicLogger - INFO - Received event <upload_operation> with a trace id of 288633722
+2023-11-17 21:51:27,344 - basicLogger - INFO - Returned event <upload_operation> reponse 932468312 with status 201
+2023-11-17 21:51:27,366 - basicLogger - INFO - Received event <upload_operation> with a trace id of 967126880
+2023-11-17 21:51:27,530 - basicLogger - INFO - Received event <upload_operation> with a trace id of 939767594
+2023-11-17 21:51:27,649 - basicLogger - INFO - Returned event <upload_operation> reponse 288633722 with status 201
+2023-11-17 21:51:27,732 - basicLogger - INFO - Returned event <upload_operation> reponse 967126880 with status 201
+2023-11-17 21:51:27,778 - basicLogger - INFO - Received event <upload_operation> with a trace id of 324306891
+2023-11-17 21:51:27,781 - basicLogger - INFO - Returned event <upload_operation> reponse 939767594 with status 201
+2023-11-17 21:51:27,827 - basicLogger - INFO - Returned event <upload_operation> reponse 324306891 with status 201
+2023-11-17 21:51:32,364 - basicLogger - INFO - Received event <report_conflict> with a trace id of 960452508
+2023-11-17 21:51:32,667 - basicLogger - INFO - Received event <report_conflict> with a trace id of 180992555
+2023-11-17 21:51:32,748 - basicLogger - INFO - Received event <report_conflict> with a trace id of 445052665
+2023-11-17 21:51:32,796 - basicLogger - INFO - Received event <report_conflict> with a trace id of 488132357
+2023-11-17 21:51:32,838 - basicLogger - INFO - Received event <report_conflict> with a trace id of 130065153
+2023-11-17 21:51:32,967 - basicLogger - INFO - Returned event <report_conflict> reponse 960452508 with status 201
+2023-11-17 21:51:33,039 - basicLogger - INFO - Returned event <report_conflict> reponse 180992555 with status 201
+2023-11-17 21:51:33,083 - basicLogger - INFO - Returned event <report_conflict> reponse 445052665 with status 201
+2023-11-17 21:51:33,123 - basicLogger - INFO - Returned event <report_conflict> reponse 488132357 with status 201
+2023-11-17 21:51:33,169 - basicLogger - INFO - Returned event <report_conflict> reponse 130065153 with status 201
+2023-11-17 21:51:37,987 - basicLogger - INFO - Received event <upload_operation> with a trace id of 752583415
+2023-11-17 21:51:38,053 - basicLogger - INFO - Received event <upload_operation> with a trace id of 547559011
+2023-11-17 21:51:38,089 - basicLogger - INFO - Received event <upload_operation> with a trace id of 607383979
+2023-11-17 21:51:38,145 - basicLogger - INFO - Received event <upload_operation> with a trace id of 401029783
+2023-11-17 21:51:38,183 - basicLogger - INFO - Received event <upload_operation> with a trace id of 355437251
+2023-11-17 21:51:38,516 - basicLogger - INFO - Returned event <upload_operation> reponse 752583415 with status 201
+2023-11-17 21:51:38,578 - basicLogger - INFO - Returned event <upload_operation> reponse 547559011 with status 201
+2023-11-17 21:51:38,626 - basicLogger - INFO - Returned event <upload_operation> reponse 607383979 with status 201
+2023-11-17 21:51:38,672 - basicLogger - INFO - Returned event <upload_operation> reponse 401029783 with status 201
+2023-11-17 21:51:38,778 - basicLogger - INFO - Returned event <upload_operation> reponse 355437251 with status 201
+2023-11-17 21:51:43,521 - basicLogger - INFO - Received event <report_conflict> with a trace id of 140097438
+2023-11-17 21:51:43,593 - basicLogger - INFO - Received event <report_conflict> with a trace id of 853638567
+2023-11-17 21:51:43,636 - basicLogger - INFO - Received event <report_conflict> with a trace id of 929482457
+2023-11-17 21:51:43,688 - basicLogger - INFO - Received event <report_conflict> with a trace id of 706746063
+2023-11-17 21:51:43,790 - basicLogger - INFO - Received event <report_conflict> with a trace id of 639293496
+2023-11-17 21:51:44,360 - basicLogger - INFO - Returned event <report_conflict> reponse 140097438 with status 201
+2023-11-17 21:51:44,520 - basicLogger - INFO - Returned event <report_conflict> reponse 853638567 with status 201
+2023-11-17 21:51:44,576 - basicLogger - INFO - Returned event <report_conflict> reponse 929482457 with status 201
+2023-11-17 21:51:44,616 - basicLogger - INFO - Returned event <report_conflict> reponse 706746063 with status 201
+2023-11-17 21:51:44,645 - basicLogger - INFO - Returned event <report_conflict> reponse 639293496 with status 201
+2023-11-17 21:51:49,376 - basicLogger - INFO - Received event <upload_operation> with a trace id of 200905749
+2023-11-17 21:51:49,535 - basicLogger - INFO - Received event <upload_operation> with a trace id of 683399973
+2023-11-17 21:51:49,577 - basicLogger - INFO - Received event <upload_operation> with a trace id of 179244066
+2023-11-17 21:51:49,619 - basicLogger - INFO - Received event <upload_operation> with a trace id of 800541353
+2023-11-17 21:51:49,647 - basicLogger - INFO - Returned event <upload_operation> reponse 200905749 with status 201
+2023-11-17 21:51:49,661 - basicLogger - INFO - Received event <upload_operation> with a trace id of 435128312
+2023-11-17 21:51:49,986 - basicLogger - INFO - Returned event <upload_operation> reponse 683399973 with status 201
+2023-11-17 21:51:50,127 - basicLogger - INFO - Returned event <upload_operation> reponse 179244066 with status 201
+2023-11-17 21:51:50,168 - basicLogger - INFO - Returned event <upload_operation> reponse 800541353 with status 201
+2023-11-17 21:51:50,293 - basicLogger - INFO - Returned event <upload_operation> reponse 435128312 with status 201
+2023-11-17 21:51:54,655 - basicLogger - INFO - Received event <report_conflict> with a trace id of 543691551
+2023-11-17 21:51:55,013 - basicLogger - INFO - Received event <report_conflict> with a trace id of 212732343
+2023-11-17 21:51:55,132 - basicLogger - INFO - Received event <report_conflict> with a trace id of 330291853
+2023-11-17 21:51:55,173 - basicLogger - INFO - Received event <report_conflict> with a trace id of 856976688
+2023-11-17 21:51:55,229 - basicLogger - INFO - Returned event <report_conflict> reponse 543691551 with status 201
+2023-11-17 21:51:55,276 - basicLogger - INFO - Returned event <report_conflict> reponse 212732343 with status 201
+2023-11-17 21:51:55,304 - basicLogger - INFO - Received event <report_conflict> with a trace id of 622301657
+2023-11-17 21:51:55,317 - basicLogger - INFO - Returned event <report_conflict> reponse 330291853 with status 201
+2023-11-17 21:51:55,360 - basicLogger - INFO - Returned event <report_conflict> reponse 856976688 with status 201
+2023-11-17 21:51:55,389 - basicLogger - INFO - Returned event <report_conflict> reponse 622301657 with status 201
+2023-11-17 21:52:00,234 - basicLogger - INFO - Received event <upload_operation> with a trace id of 446386156
+2023-11-17 21:52:00,284 - basicLogger - INFO - Received event <upload_operation> with a trace id of 627767407
+2023-11-17 21:52:00,319 - basicLogger - INFO - Received event <upload_operation> with a trace id of 264363405
+2023-11-17 21:52:00,361 - basicLogger - INFO - Received event <upload_operation> with a trace id of 20348136
+2023-11-17 21:52:00,409 - basicLogger - INFO - Received event <upload_operation> with a trace id of 241423767
+2023-11-17 21:52:01,077 - basicLogger - INFO - Returned event <upload_operation> reponse 446386156 with status 201
+2023-11-17 21:52:01,125 - basicLogger - INFO - Returned event <upload_operation> reponse 627767407 with status 201
+2023-11-17 21:52:01,180 - basicLogger - INFO - Returned event <upload_operation> reponse 264363405 with status 201
+2023-11-17 21:52:01,239 - basicLogger - INFO - Returned event <upload_operation> reponse 20348136 with status 201
+2023-11-17 21:52:01,291 - basicLogger - INFO - Returned event <upload_operation> reponse 241423767 with status 201
+2023-11-17 21:52:06,080 - basicLogger - INFO - Received event <report_conflict> with a trace id of 491821498
+2023-11-17 21:52:06,130 - basicLogger - INFO - Received event <report_conflict> with a trace id of 858967492
+2023-11-17 21:52:06,191 - basicLogger - INFO - Received event <report_conflict> with a trace id of 820249240
+2023-11-17 21:52:06,253 - basicLogger - INFO - Received event <report_conflict> with a trace id of 484358922
+2023-11-17 21:52:06,303 - basicLogger - INFO - Received event <report_conflict> with a trace id of 757821186
+2023-11-17 21:52:06,982 - basicLogger - INFO - Returned event <report_conflict> reponse 491821498 with status 201
+2023-11-17 21:52:07,079 - basicLogger - INFO - Returned event <report_conflict> reponse 858967492 with status 201
+2023-11-17 21:52:07,394 - basicLogger - INFO - Returned event <report_conflict> reponse 820249240 with status 201
+2023-11-17 21:52:08,318 - basicLogger - INFO - Returned event <report_conflict> reponse 484358922 with status 201
+2023-11-17 21:52:08,618 - basicLogger - INFO - Returned event <report_conflict> reponse 757821186 with status 201
+2023-11-17 21:52:11,988 - basicLogger - INFO - Received event <upload_operation> with a trace id of 502860729
+2023-11-17 21:52:12,081 - basicLogger - INFO - Received event <upload_operation> with a trace id of 633369040
+2023-11-17 21:52:12,394 - basicLogger - INFO - Received event <upload_operation> with a trace id of 361145323
+2023-11-17 21:52:12,894 - basicLogger - INFO - Returned event <upload_operation> reponse 502860729 with status 201
+2023-11-17 21:52:13,065 - basicLogger - INFO - Returned event <upload_operation> reponse 633369040 with status 201
+2023-11-17 21:52:13,113 - basicLogger - INFO - Returned event <upload_operation> reponse 361145323 with status 201
+2023-11-17 21:52:13,331 - basicLogger - INFO - Received event <upload_operation> with a trace id of 219436162
+2023-11-17 21:52:13,628 - basicLogger - INFO - Received event <upload_operation> with a trace id of 458600578
+2023-11-17 21:52:13,940 - basicLogger - INFO - Returned event <upload_operation> reponse 219436162 with status 201
+2023-11-17 21:52:14,144 - basicLogger - INFO - Returned event <upload_operation> reponse 458600578 with status 201
+2023-11-17 21:52:17,916 - basicLogger - INFO - Received event <report_conflict> with a trace id of 90513247
+2023-11-17 21:52:18,087 - basicLogger - INFO - Received event <report_conflict> with a trace id of 205560632
+2023-11-17 21:52:18,134 - basicLogger - INFO - Received event <report_conflict> with a trace id of 825764512
+2023-11-17 21:52:18,462 - basicLogger - INFO - Returned event <report_conflict> reponse 90513247 with status 201
+2023-11-17 21:52:18,963 - basicLogger - INFO - Received event <report_conflict> with a trace id of 84856923
+2023-11-17 21:52:18,978 - basicLogger - INFO - Returned event <report_conflict> reponse 205560632 with status 201
+2023-11-17 21:52:19,025 - basicLogger - INFO - Returned event <report_conflict> reponse 825764512 with status 201
+2023-11-17 21:52:19,056 - basicLogger - INFO - Returned event <report_conflict> reponse 84856923 with status 201
+2023-11-17 21:52:19,166 - basicLogger - INFO - Received event <report_conflict> with a trace id of 117258148
+2023-11-17 21:52:19,212 - basicLogger - INFO - Returned event <report_conflict> reponse 117258148 with status 201
+2023-11-17 21:52:23,475 - basicLogger - INFO - Received event <upload_operation> with a trace id of 953162765
+2023-11-17 21:52:23,991 - basicLogger - INFO - Received event <upload_operation> with a trace id of 235191475
+2023-11-17 21:52:24,037 - basicLogger - INFO - Received event <upload_operation> with a trace id of 420293411
+2023-11-17 21:52:24,084 - basicLogger - INFO - Received event <upload_operation> with a trace id of 172699646
+2023-11-17 21:52:24,225 - basicLogger - INFO - Received event <upload_operation> with a trace id of 421204469
+2023-11-17 21:52:24,944 - basicLogger - INFO - Returned event <upload_operation> reponse 953162765 with status 201
+2023-11-17 21:52:26,225 - basicLogger - INFO - Returned event <upload_operation> reponse 235191475 with status 201
+2023-11-17 21:52:26,538 - basicLogger - INFO - Returned event <upload_operation> reponse 420293411 with status 201
+2023-11-17 21:52:26,616 - basicLogger - INFO - Returned event <upload_operation> reponse 172699646 with status 201
+2023-11-17 21:52:26,662 - basicLogger - INFO - Returned event <upload_operation> reponse 421204469 with status 201
+2023-11-17 21:52:29,957 - basicLogger - INFO - Received event <report_conflict> with a trace id of 47119134
+2023-11-17 21:52:30,895 - basicLogger - INFO - Returned event <report_conflict> reponse 47119134 with status 201
+2023-11-17 21:52:31,239 - basicLogger - INFO - Received event <report_conflict> with a trace id of 452273015
+2023-11-17 21:52:31,548 - basicLogger - INFO - Received event <report_conflict> with a trace id of 543898977
+2023-11-17 21:52:31,643 - basicLogger - INFO - Received event <report_conflict> with a trace id of 195563556
+2023-11-17 21:52:31,673 - basicLogger - INFO - Received event <report_conflict> with a trace id of 898531317
+2023-11-17 21:52:31,986 - basicLogger - INFO - Returned event <report_conflict> reponse 452273015 with status 201
+2023-11-17 21:52:32,111 - basicLogger - INFO - Returned event <report_conflict> reponse 543898977 with status 201
+2023-11-17 21:52:32,158 - basicLogger - INFO - Returned event <report_conflict> reponse 195563556 with status 201
+2023-11-17 21:52:32,533 - basicLogger - INFO - Returned event <report_conflict> reponse 898531317 with status 201
+2023-11-17 21:52:35,921 - basicLogger - INFO - Received event <upload_operation> with a trace id of 574447705
+2023-11-17 21:52:36,999 - basicLogger - INFO - Received event <upload_operation> with a trace id of 665812812
+2023-11-17 21:52:37,140 - basicLogger - INFO - Received event <upload_operation> with a trace id of 488739960
+2023-11-17 21:52:37,171 - basicLogger - INFO - Received event <upload_operation> with a trace id of 591098691
+2023-11-17 21:52:37,296 - basicLogger - INFO - Returned event <upload_operation> reponse 574447705 with status 201
+2023-11-17 21:52:37,546 - basicLogger - INFO - Received event <upload_operation> with a trace id of 149554628
+2023-11-17 21:52:38,218 - basicLogger - INFO - Returned event <upload_operation> reponse 665812812 with status 201
+2023-11-17 21:52:38,824 - basicLogger - INFO - Returned event <upload_operation> reponse 488739960 with status 201
+2023-11-17 21:52:39,944 - basicLogger - INFO - Returned event <upload_operation> reponse 591098691 with status 201
+2023-11-17 21:52:41,225 - basicLogger - INFO - Returned event <upload_operation> reponse 149554628 with status 201
+2023-11-17 21:52:42,299 - basicLogger - INFO - Received event <report_conflict> with a trace id of 932178793
+2023-11-17 21:52:43,221 - basicLogger - INFO - Received event <report_conflict> with a trace id of 673441711
+2023-11-17 21:52:43,835 - basicLogger - INFO - Received event <report_conflict> with a trace id of 980441210
+2023-11-17 21:52:44,335 - basicLogger - INFO - Returned event <report_conflict> reponse 932178793 with status 201
+2023-11-17 21:52:44,961 - basicLogger - INFO - Received event <report_conflict> with a trace id of 810523960
+2023-11-17 21:52:45,575 - basicLogger - INFO - Returned event <report_conflict> reponse 673441711 with status 201
+2023-11-17 21:52:46,246 - basicLogger - INFO - Received event <report_conflict> with a trace id of 184841448
+2023-11-17 21:52:47,321 - basicLogger - INFO - Returned event <report_conflict> reponse 980441210 with status 201
+2023-11-17 21:52:47,815 - basicLogger - INFO - Returned event <report_conflict> reponse 810523960 with status 201
+2023-11-17 21:52:48,222 - basicLogger - INFO - Returned event <report_conflict> reponse 184841448 with status 201
+2023-11-17 21:52:49,350 - basicLogger - INFO - Received event <upload_operation> with a trace id of 599132914
+2023-11-17 21:52:49,819 - basicLogger - INFO - Returned event <upload_operation> reponse 599132914 with status 201
+2023-11-17 21:52:50,593 - basicLogger - INFO - Received event <upload_operation> with a trace id of 649770975
+2023-11-17 21:52:50,969 - basicLogger - INFO - Returned event <upload_operation> reponse 649770975 with status 201
+2023-11-17 21:52:52,335 - basicLogger - INFO - Received event <upload_operation> with a trace id of 617464544
+2023-11-17 21:52:52,835 - basicLogger - INFO - Received event <upload_operation> with a trace id of 588365754
+2023-11-17 21:52:53,240 - basicLogger - INFO - Received event <upload_operation> with a trace id of 555009804
+2023-11-17 21:52:53,648 - basicLogger - INFO - Returned event <upload_operation> reponse 617464544 with status 201
+2023-11-17 21:52:54,843 - basicLogger - INFO - Received event <report_conflict> with a trace id of 677628925
+2023-11-17 21:52:55,323 - basicLogger - INFO - Returned event <upload_operation> reponse 588365754 with status 201
+2023-11-17 21:52:55,976 - basicLogger - INFO - Received event <report_conflict> with a trace id of 514444363
+2023-11-17 21:52:56,215 - basicLogger - INFO - Returned event <upload_operation> reponse 555009804 with status 201
+2023-11-17 21:52:56,520 - basicLogger - INFO - Returned event <report_conflict> reponse 677628925 with status 201
+2023-11-17 21:52:56,575 - basicLogger - INFO - Returned event <report_conflict> reponse 514444363 with status 201
+2023-11-17 21:52:58,664 - basicLogger - INFO - Received event <report_conflict> with a trace id of 408353777
+2023-11-17 21:53:00,336 - basicLogger - INFO - Received event <report_conflict> with a trace id of 53257106
+2023-11-17 21:53:01,227 - basicLogger - INFO - Received event <report_conflict> with a trace id of 885683051
+2023-11-17 21:53:01,539 - basicLogger - INFO - Received event <upload_operation> with a trace id of 339994767
+2023-11-17 21:53:01,586 - basicLogger - INFO - Received event <upload_operation> with a trace id of 554596100
+2023-11-17 21:53:03,712 - basicLogger - INFO - Received event <upload_operation> with a trace id of 487485459
+2023-11-17 21:53:05,415 - basicLogger - INFO - Received event <upload_operation> with a trace id of 542342306
+2023-11-17 21:53:06,274 - basicLogger - INFO - Received event <upload_operation> with a trace id of 212115401
+2023-11-17 21:53:06,587 - basicLogger - INFO - Received event <report_conflict> with a trace id of 276660457
+2023-11-17 21:53:06,649 - basicLogger - INFO - Received event <report_conflict> with a trace id of 842028789
+2023-11-17 21:53:08,765 - basicLogger - INFO - Received event <report_conflict> with a trace id of 595686444
+2023-11-17 21:53:10,496 - basicLogger - INFO - Received event <report_conflict> with a trace id of 50302030
+2023-11-17 21:53:11,344 - basicLogger - INFO - Received event <report_conflict> with a trace id of 582070537
+2023-11-17 21:53:11,667 - basicLogger - INFO - Received event <upload_operation> with a trace id of 270271245
+2023-11-17 21:53:11,707 - basicLogger - INFO - Received event <upload_operation> with a trace id of 618035888
+2023-11-17 21:53:13,813 - basicLogger - INFO - Received event <upload_operation> with a trace id of 601648193
+2023-11-17 21:53:15,585 - basicLogger - INFO - Received event <upload_operation> with a trace id of 779052171
+2023-11-17 21:53:16,438 - basicLogger - INFO - Received event <upload_operation> with a trace id of 330469374
+2023-11-17 22:06:03,163 - basicLogger - INFO - Received event <report_conflict> with a trace id of 952246542
+2023-11-17 22:06:03,350 - basicLogger - INFO - Received event <report_conflict> with a trace id of 784053159
+2023-11-17 22:06:03,547 - basicLogger - INFO - Received event <report_conflict> with a trace id of 992503447
+2023-11-17 22:06:03,747 - basicLogger - INFO - Received event <report_conflict> with a trace id of 632882146
+2023-11-17 22:06:03,947 - basicLogger - INFO - Received event <report_conflict> with a trace id of 318754887
+2023-11-17 22:06:08,220 - basicLogger - INFO - Received event <upload_operation> with a trace id of 16808132
+2023-11-17 22:06:08,412 - basicLogger - INFO - Received event <upload_operation> with a trace id of 473897139
+2023-11-17 22:06:08,595 - basicLogger - INFO - Received event <upload_operation> with a trace id of 429868784
+2023-11-17 22:06:08,813 - basicLogger - INFO - Received event <upload_operation> with a trace id of 244258216
+2023-11-17 22:06:09,003 - basicLogger - INFO - Received event <upload_operation> with a trace id of 321922974
+2023-11-17 22:06:13,271 - basicLogger - INFO - Received event <report_conflict> with a trace id of 410525953
+2023-11-17 22:06:13,442 - basicLogger - INFO - Received event <report_conflict> with a trace id of 869187971
+2023-11-17 22:06:13,630 - basicLogger - INFO - Received event <report_conflict> with a trace id of 265052013
+2023-11-17 22:06:13,880 - basicLogger - INFO - Received event <report_conflict> with a trace id of 663447777
+2023-11-17 22:06:14,052 - basicLogger - INFO - Received event <report_conflict> with a trace id of 485932595
+2023-11-17 22:06:18,318 - basicLogger - INFO - Received event <upload_operation> with a trace id of 616004641
+2023-11-17 22:06:18,506 - basicLogger - INFO - Received event <upload_operation> with a trace id of 665326421
+2023-11-17 22:06:18,695 - basicLogger - INFO - Received event <upload_operation> with a trace id of 326302730
+2023-11-17 22:06:18,914 - basicLogger - INFO - Received event <upload_operation> with a trace id of 198007588
+2023-11-17 22:06:19,123 - basicLogger - INFO - Received event <upload_operation> with a trace id of 933471320
+2023-11-17 22:06:23,408 - basicLogger - INFO - Received event <report_conflict> with a trace id of 321411881
+2023-11-17 22:06:23,564 - basicLogger - INFO - Received event <report_conflict> with a trace id of 291318309
+2023-11-17 22:06:23,767 - basicLogger - INFO - Received event <report_conflict> with a trace id of 661502214
+2023-11-17 22:06:23,986 - basicLogger - INFO - Received event <report_conflict> with a trace id of 621283112
+2023-11-17 22:06:24,189 - basicLogger - INFO - Received event <report_conflict> with a trace id of 784936580
+2023-11-17 22:06:28,479 - basicLogger - INFO - Received event <upload_operation> with a trace id of 865066755
+2023-11-17 22:06:28,621 - basicLogger - INFO - Received event <upload_operation> with a trace id of 819696850
+2023-11-17 22:06:28,835 - basicLogger - INFO - Received event <upload_operation> with a trace id of 52710182
+2023-11-17 22:06:29,048 - basicLogger - INFO - Received event <upload_operation> with a trace id of 244910216
+2023-11-17 22:06:29,242 - basicLogger - INFO - Received event <upload_operation> with a trace id of 879006495
+2023-11-17 22:06:33,551 - basicLogger - INFO - Received event <report_conflict> with a trace id of 27097681
+2023-11-17 22:06:33,665 - basicLogger - INFO - Received event <report_conflict> with a trace id of 977226551
+2023-11-17 22:06:33,908 - basicLogger - INFO - Received event <report_conflict> with a trace id of 391203430
+2023-11-17 22:06:34,105 - basicLogger - INFO - Received event <report_conflict> with a trace id of 31714258
+2023-11-17 22:06:34,303 - basicLogger - INFO - Received event <report_conflict> with a trace id of 930049179
+2023-11-17 22:06:38,623 - basicLogger - INFO - Received event <upload_operation> with a trace id of 800166111
+2023-11-17 22:06:38,726 - basicLogger - INFO - Received event <upload_operation> with a trace id of 746039657
+2023-11-17 22:06:38,964 - basicLogger - INFO - Received event <upload_operation> with a trace id of 521943181
+2023-11-17 22:06:39,159 - basicLogger - INFO - Received event <upload_operation> with a trace id of 687676091
+2023-11-17 22:06:39,365 - basicLogger - INFO - Received event <upload_operation> with a trace id of 175778150
+2023-11-17 22:06:43,680 - basicLogger - INFO - Received event <report_conflict> with a trace id of 955870656
+2023-11-17 22:06:43,788 - basicLogger - INFO - Received event <report_conflict> with a trace id of 465589613
+2023-11-17 22:06:44,031 - basicLogger - INFO - Received event <report_conflict> with a trace id of 701407521
+2023-11-17 22:06:44,205 - basicLogger - INFO - Received event <report_conflict> with a trace id of 304713994
+2023-11-17 22:06:44,421 - basicLogger - INFO - Received event <report_conflict> with a trace id of 668242450
+2023-11-17 22:06:48,747 - basicLogger - INFO - Received event <upload_operation> with a trace id of 512827066
+2023-11-17 22:06:48,854 - basicLogger - INFO - Received event <upload_operation> with a trace id of 309988855
+2023-11-17 22:06:49,073 - basicLogger - INFO - Received event <upload_operation> with a trace id of 480191086
+2023-11-17 22:06:49,256 - basicLogger - INFO - Received event <upload_operation> with a trace id of 876971855
+2023-11-17 22:06:49,506 - basicLogger - INFO - Received event <upload_operation> with a trace id of 230656984
+2023-11-17 22:06:53,815 - basicLogger - INFO - Received event <report_conflict> with a trace id of 539564611
+2023-11-17 22:06:53,894 - basicLogger - INFO - Received event <report_conflict> with a trace id of 635379350
+2023-11-17 22:06:54,112 - basicLogger - INFO - Received event <report_conflict> with a trace id of 415714339
+2023-11-17 22:06:54,315 - basicLogger - INFO - Received event <report_conflict> with a trace id of 505080394
+2023-11-17 22:06:54,542 - basicLogger - INFO - Received event <report_conflict> with a trace id of 600956906
+2023-11-17 22:06:58,861 - basicLogger - INFO - Received event <upload_operation> with a trace id of 245367896
+2023-11-17 22:06:58,938 - basicLogger - INFO - Received event <upload_operation> with a trace id of 821148921
+2023-11-17 22:06:59,167 - basicLogger - INFO - Received event <upload_operation> with a trace id of 529406969
+2023-11-17 22:06:59,354 - basicLogger - INFO - Received event <upload_operation> with a trace id of 600546182
+2023-11-17 22:06:59,590 - basicLogger - INFO - Received event <upload_operation> with a trace id of 345272504
+2023-11-17 22:07:03,924 - basicLogger - INFO - Received event <report_conflict> with a trace id of 846843822
+2023-11-17 22:07:04,002 - basicLogger - INFO - Received event <report_conflict> with a trace id of 27077732
+2023-11-17 22:07:04,237 - basicLogger - INFO - Received event <report_conflict> with a trace id of 162782352
+2023-11-17 22:07:04,431 - basicLogger - INFO - Received event <report_conflict> with a trace id of 470479602
+2023-11-17 22:07:04,680 - basicLogger - INFO - Received event <report_conflict> with a trace id of 253035226
+2023-11-17 22:07:08,997 - basicLogger - INFO - Received event <upload_operation> with a trace id of 85202037
+2023-11-17 22:07:09,077 - basicLogger - INFO - Received event <upload_operation> with a trace id of 939600274
+2023-11-17 22:07:09,297 - basicLogger - INFO - Received event <upload_operation> with a trace id of 420551082
+2023-11-17 22:07:09,466 - basicLogger - INFO - Received event <upload_operation> with a trace id of 556600791
+2023-11-17 22:07:09,736 - basicLogger - INFO - Received event <upload_operation> with a trace id of 770938920
+2023-11-17 22:07:14,062 - basicLogger - INFO - Received event <report_conflict> with a trace id of 408064296
+2023-11-17 22:07:14,134 - basicLogger - INFO - Received event <report_conflict> with a trace id of 177026906
+2023-11-17 22:07:14,359 - basicLogger - INFO - Received event <report_conflict> with a trace id of 840267590
+2023-11-17 22:07:14,525 - basicLogger - INFO - Received event <report_conflict> with a trace id of 383560126
+2023-11-17 22:07:14,805 - basicLogger - INFO - Received event <report_conflict> with a trace id of 924118444
+2023-11-17 22:07:16,267 - basicLogger - INFO - Returned event <report_conflict> reponse 408064296 with status 201
+2023-11-17 22:07:16,317 - basicLogger - INFO - Returned event <report_conflict> reponse 177026906 with status 201
+2023-11-17 22:07:16,382 - basicLogger - INFO - Returned event <report_conflict> reponse 840267590 with status 201
+2023-11-17 22:07:16,435 - basicLogger - INFO - Returned event <report_conflict> reponse 383560126 with status 201
+2023-11-17 22:07:16,482 - basicLogger - INFO - Returned event <report_conflict> reponse 924118444 with status 201
+2023-11-17 22:07:21,270 - basicLogger - INFO - Received event <upload_operation> with a trace id of 133278775
+2023-11-17 22:07:21,333 - basicLogger - INFO - Received event <upload_operation> with a trace id of 112370045
+2023-11-17 22:07:21,395 - basicLogger - INFO - Received event <upload_operation> with a trace id of 806933760
+2023-11-17 22:07:21,443 - basicLogger - INFO - Received event <upload_operation> with a trace id of 344789462
+2023-11-17 22:07:21,489 - basicLogger - INFO - Received event <upload_operation> with a trace id of 820127842
+2023-11-17 22:07:26,338 - basicLogger - INFO - Received event <report_conflict> with a trace id of 293932736
+2023-11-17 22:07:26,396 - basicLogger - INFO - Received event <report_conflict> with a trace id of 779705401
+2023-11-17 22:07:26,481 - basicLogger - INFO - Received event <report_conflict> with a trace id of 122503741
+2023-11-17 22:07:26,540 - basicLogger - INFO - Received event <report_conflict> with a trace id of 670044460
+2023-11-17 22:07:26,572 - basicLogger - INFO - Received event <report_conflict> with a trace id of 775457911
+2023-11-17 22:07:31,411 - basicLogger - INFO - Received event <upload_operation> with a trace id of 254050710
+2023-11-17 22:07:31,487 - basicLogger - INFO - Received event <upload_operation> with a trace id of 263433536
+2023-11-17 22:07:31,615 - basicLogger - INFO - Received event <upload_operation> with a trace id of 186732024
+2023-11-17 22:07:31,657 - basicLogger - INFO - Received event <upload_operation> with a trace id of 462334002
+2023-11-17 22:07:31,678 - basicLogger - INFO - Received event <upload_operation> with a trace id of 799354715
+2023-11-17 22:07:36,458 - basicLogger - INFO - Received event <report_conflict> with a trace id of 866214199
+2023-11-17 22:07:36,534 - basicLogger - INFO - Received event <report_conflict> with a trace id of 218244439
+2023-11-17 22:07:36,662 - basicLogger - INFO - Received event <report_conflict> with a trace id of 893104106
+2023-11-17 22:07:36,714 - basicLogger - INFO - Received event <report_conflict> with a trace id of 422678935
+2023-11-17 22:07:36,733 - basicLogger - INFO - Received event <report_conflict> with a trace id of 888589005
+2023-11-17 22:07:41,540 - basicLogger - INFO - Received event <upload_operation> with a trace id of 386317542
+2023-11-17 22:07:41,589 - basicLogger - INFO - Received event <upload_operation> with a trace id of 90244203
+2023-11-17 22:07:41,732 - basicLogger - INFO - Received event <upload_operation> with a trace id of 674513225
+2023-11-17 22:07:41,776 - basicLogger - INFO - Received event <upload_operation> with a trace id of 448780973
+2023-11-17 22:07:41,807 - basicLogger - INFO - Received event <upload_operation> with a trace id of 818777520

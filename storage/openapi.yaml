@@ -30,6 +30,13 @@ paths:
             type: string
             format: date-time
             example: 2016-08-29T09:12:33.010
+        - name: end_timestamp
+          in: query
+          description: the end of the processing period
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.010
       responses:
         '200':
           description: successful return of an array of reports
@@ -60,6 +67,13 @@ paths:
         - name: timestamp
           in: query
           description: limits the number of operations per page
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.010
+        - name: end_timestamp
+          in: query
+          description: the end of the processing period
           schema:
             type: string
             format: date-time

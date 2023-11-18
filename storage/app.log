@@ -989,3 +989,73 @@
 2023-11-08 16:56:32,408 - basicLogger - INFO - Query for conflict reports after 2023-11-08T16:56:29.594762 returns 0 results
 2023-11-08 16:56:34,578 - basicLogger - INFO - Query for operation plans after 2023-11-08T16:56:29.594762 returns 0 results
 2023-11-08 16:56:37,412 - basicLogger - INFO - Query for conflict reports after 2023-11-08T16:56:34.581466 returns 0 results
+2023-11-17 21:46:15,640 - basicLogger - INFO - Attempting to connect to Kafka. Retry count: 0
+2023-11-17 21:46:15,918 - basicLogger - INFO - Attempting to connect to Kafka. Retry count: 0
+2023-11-17 21:46:16,182 - basicLogger - INFO - Starting Processing
+2023-11-17 21:48:57,085 - basicLogger - INFO - Message: {'type': 'report_conflict', 'datetime': '2023-11-17T21:48:25', 'payload': {'blu_numbers': 68481, 'node_id': '2e5962d0-490a-4652-815a-6973e043a983', 'op_numbers': 68481, 'planet_id': 'Terra', 'system_id': 'System_Pacificus', 'timestamp': '40241-08-25', 'trace_id': 401461360}}
+2023-11-17 21:49:04,705 - basicLogger - DEBUG - Received event <report_conflict> with a trace id of 401461360
+2023-11-17 21:49:04,705 - basicLogger - INFO - Connecting to the DB, Hostname: ky-3855.westus3.cloudapp.azure.com, Port: 3306
+2023-11-17 21:49:12,384 - basicLogger - INFO - Message: {'type': 'upload_operation', 'datetime': '2023-11-17T21:48:40', 'payload': {'blu_ships': 28022, 'op_ships': 28022, 'op_type': 'orbital_drop', 'operation_id': 'op_pacific', 'planet_id': 'Scoria', 'system_id': 'Segmentum_Solar', 'timestamp': '40241-08-25', 'trace_id': 621263075}}
+2023-11-17 21:49:19,821 - basicLogger - DEBUG - Received event <upload_operation> with a trace id of 621263075
+2023-11-17 21:49:26,335 - basicLogger - INFO - Message: {'type': 'upload_operation', 'datetime': '2023-11-17T21:48:31', 'payload': {'blu_ships': 28437, 'op_ships': 28437, 'op_type': 'orbital_drop', 'operation_id': 'op_pacific', 'planet_id': 'Macragge', 'system_id': 'Segmentum_Solar', 'timestamp': '40241-08-25', 'trace_id': 641221456}}
+2023-11-17 21:49:36,178 - basicLogger - DEBUG - Received event <upload_operation> with a trace id of 641221456
+2023-11-17 21:49:43,333 - basicLogger - INFO - Message: {'type': 'report_conflict', 'datetime': '2023-11-17T21:48:45', 'payload': {'blu_numbers': 81500, 'node_id': '2e5962d0-490a-4652-815a-6973e043a983', 'op_numbers': 81500, 'planet_id': 'Nocturne', 'system_id': 'System_Pacificus', 'timestamp': '40241-08-25', 'trace_id': 651393945}}
+2023-11-17 21:49:51,772 - basicLogger - DEBUG - Received event <report_conflict> with a trace id of 651393945
+2023-11-17 21:49:51,773 - basicLogger - INFO - Connecting to the DB, Hostname: ky-3855.westus3.cloudapp.azure.com, Port: 3306
+2023-11-17 21:49:56,376 - basicLogger - INFO - Message: {'type': 'report_conflict', 'datetime': '2023-11-17T21:48:46', 'payload': {'blu_numbers': 32025, 'node_id': '2e5962d0-490a-4652-815a-6973e043a983', 'op_numbers': 32025, 'planet_id': 'Armaggedon', 'system_id': 'Imperium_Sanctus', 'timestamp': '40241-08-25', 'trace_id': 400344964}}
+2023-11-17 21:50:07,688 - basicLogger - DEBUG - Received event <report_conflict> with a trace id of 400344964
+2023-11-17 21:50:07,690 - basicLogger - INFO - Connecting to the DB, Hostname: ky-3855.westus3.cloudapp.azure.com, Port: 3306
+2023-11-17 21:50:08,519 - basicLogger - INFO - Message: {'type': 'report_conflict', 'datetime': '2023-11-17T21:48:26', 'payload': {'blu_numbers': 85946, 'node_id': '2e5962d0-490a-4652-815a-6973e043a983', 'op_numbers': 85946, 'planet_id': 'Nocturne', 'system_id': 'System_Pacificus', 'timestamp': '40241-08-25', 'trace_id': 114910954}}
+2023-11-17 21:50:10,971 - basicLogger - DEBUG - Received event <report_conflict> with a trace id of 114910954
+2023-11-17 21:50:10,971 - basicLogger - INFO - Connecting to the DB, Hostname: ky-3855.westus3.cloudapp.azure.com, Port: 3306
+2023-11-17 21:50:11,732 - basicLogger - INFO - Message: {'type': 'upload_operation', 'datetime': '2023-11-17T21:48:41', 'payload': {'blu_ships': 38449, 'op_ships': 38449, 'op_type': 'planetary_invasion', 'operation_id': 'op_vengeance', 'planet_id': 'Terra', 'system_id': 'System_Pacificus', 'timestamp': '40241-08-25', 'trace_id': 968942073}}
+2023-11-17 21:50:12,822 - basicLogger - DEBUG - Received event <upload_operation> with a trace id of 968942073
+2023-11-17 21:50:13,232 - basicLogger - INFO - Message: {'type': 'report_conflict', 'datetime': '2023-11-17T21:48:35', 'payload': {'blu_numbers': 28022, 'node_id': '2e5962d0-490a-4652-815a-6973e043a983', 'op_numbers': 28022, 'planet_id': 'Scoria', 'system_id': 'Segmentum_Solar', 'timestamp': '40241-08-25', 'trace_id': 87214255}}
+2023-11-17 21:56:33,899 - basicLogger - INFO - Attempting to connect to Kafka. Retry count: 0
+2023-11-17 21:56:50,493 - basicLogger - INFO - Attempting to connect to Kafka. Retry count: 0
+2023-11-17 21:57:38,576 - basicLogger - INFO - Starting Processing
+2023-11-17 22:00:00,379 - basicLogger - INFO - Query for conflict reports after 2023-10-12T11:06:15.894272 returns 0 results
+2023-11-17 22:00:35,300 - basicLogger - INFO - Query for operation plans after 2023-10-12T11:06:15.894272 returns 0 results
+2023-11-17 22:00:46,574 - basicLogger - INFO - Query for conflict reports after 2023-11-17T21:57:38.882786 returns 0 results
+2023-11-17 22:00:53,391 - basicLogger - INFO - Query for operation plans after 2023-11-17T21:57:38.882786 returns 0 results
+2023-11-17 22:00:56,875 - basicLogger - INFO - Query for conflict reports after 2023-11-17T22:00:38.902103 returns 0 results
+2023-11-17 22:00:59,658 - basicLogger - INFO - Query for operation plans after 2023-11-17T22:00:38.902103 returns 0 results
+2023-11-17 22:01:19,845 - basicLogger - INFO - Query for conflict reports after 2023-11-17T22:00:53.888016 returns 0 results
+2023-11-17 22:01:30,764 - basicLogger - INFO - Query for operation plans after 2023-11-17T22:00:53.888016 returns 0 results
+2023-11-17 22:01:37,139 - basicLogger - INFO - Query for conflict reports after 2023-11-17T22:01:03.887030 returns 0 results
+2023-11-17 22:01:41,139 - basicLogger - INFO - Query for operation plans after 2023-11-17T22:01:03.887030 returns 0 results
+2023-11-17 22:01:47,219 - basicLogger - INFO - Query for conflict reports after 2023-11-17T22:01:33.883088 returns 0 results
+2023-11-17 22:01:51,005 - basicLogger - INFO - Query for operation plans after 2023-11-17T22:01:33.883088 returns 0 results
+2023-11-17 22:01:57,291 - basicLogger - INFO - Query for conflict reports after 2023-11-17T22:01:43.888868 returns 0 results
+2023-11-17 22:02:01,168 - basicLogger - INFO - Query for operation plans after 2023-11-17T22:01:43.888868 returns 0 results
+2023-11-17 22:02:07,596 - basicLogger - INFO - Query for conflict reports after 2023-11-17T22:01:53.896635 returns 0 results
+2023-11-17 22:02:11,502 - basicLogger - INFO - Query for operation plans after 2023-11-17T22:01:53.896635 returns 0 results
+2023-11-17 22:02:18,583 - basicLogger - INFO - Query for conflict reports after 2023-11-17T22:02:03.875669 returns 0 results
+2023-11-17 22:02:22,268 - basicLogger - INFO - Query for operation plans after 2023-11-17T22:02:03.875669 returns 0 results
+2023-11-17 22:02:27,982 - basicLogger - INFO - Query for conflict reports after 2023-11-17T22:02:13.871734 returns 0 results
+2023-11-17 22:02:31,620 - basicLogger - INFO - Query for operation plans after 2023-11-17T22:02:13.871734 returns 0 results
+2023-11-17 22:02:40,434 - basicLogger - INFO - Query for conflict reports after 2023-11-17T22:02:23.880029 returns 0 results
+2023-11-17 22:02:47,298 - basicLogger - INFO - Query for operation plans after 2023-11-17T22:02:23.880029 returns 0 results
+2023-11-17 22:02:52,872 - basicLogger - INFO - Query for conflict reports after 2023-11-17T22:02:33.879217 returns 0 results
+2023-11-17 22:02:56,966 - basicLogger - INFO - Query for operation plans after 2023-11-17T22:02:33.879217 returns 0 results
+2023-11-17 22:03:02,079 - basicLogger - INFO - Query for conflict reports after 2023-11-17T22:02:48.885707 returns 0 results
+2023-11-17 22:03:05,086 - basicLogger - INFO - Query for operation plans after 2023-11-17T22:02:48.885707 returns 0 results
+2023-11-17 22:03:12,207 - basicLogger - INFO - Query for conflict reports after 2023-11-17T22:02:58.879321 returns 0 results
+2023-11-17 22:03:15,322 - basicLogger - INFO - Query for operation plans after 2023-11-17T22:02:58.879321 returns 0 results
+2023-11-17 22:03:22,244 - basicLogger - INFO - Query for conflict reports after 2023-11-17T22:03:08.878648 returns 0 results
+2023-11-17 22:03:25,432 - basicLogger - INFO - Query for operation plans after 2023-11-17T22:03:08.878648 returns 0 results
+2023-11-17 22:03:32,778 - basicLogger - INFO - Query for conflict reports after 2023-11-17T22:03:18.884465 returns 0 results
+2023-11-17 22:03:36,594 - basicLogger - INFO - Query for operation plans after 2023-11-17T22:03:18.884465 returns 0 results
+2023-11-17 22:03:42,084 - basicLogger - INFO - Query for conflict reports after 2023-11-17T22:03:28.885581 returns 0 results
+2023-11-17 22:03:46,170 - basicLogger - INFO - Query for operation plans after 2023-11-17T22:03:28.885581 returns 0 results
+2023-11-17 22:03:53,037 - basicLogger - INFO - Query for conflict reports after 2023-11-17T22:03:38.876030 returns 0 results
+2023-11-17 22:03:56,735 - basicLogger - INFO - Query for operation plans after 2023-11-17T22:03:38.876030 returns 0 results
+2023-11-17 22:04:03,680 - basicLogger - INFO - Query for conflict reports after 2023-11-17T22:03:48.877692 returns 0 results
+2023-11-17 22:04:20,377 - basicLogger - INFO - Query for operation plans after 2023-11-17T22:03:48.877692 returns 0 results
+2023-11-17 22:04:49,047 - basicLogger - INFO - Query for conflict reports after 2023-11-17T22:03:58.882668 returns 0 results
+2023-11-17 22:04:53,281 - basicLogger - INFO - Query for operation plans after 2023-11-17T22:03:58.882668 returns 0 results
+2023-11-17 22:05:18,375 - basicLogger - INFO - Query for conflict reports after 2023-11-17T22:04:23.880382 returns 0 results
+2023-11-17 22:05:30,407 - basicLogger - INFO - Query for operation plans after 2023-11-17T22:04:23.880382 returns 0 results
+2023-11-17 22:06:12,802 - basicLogger - INFO - Query for conflict reports after 2023-11-17T22:05:13.881463 returns 0 results
+2023-11-17 22:07:06,440 - basicLogger - INFO - Query for operation plans after 2023-11-17T22:05:13.881463 returns 0 results
+2023-11-17 22:07:13,526 - basicLogger - INFO - Query for conflict reports after 2023-11-17T22:05:33.887320 returns 0 results

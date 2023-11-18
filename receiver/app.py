@@ -27,6 +27,8 @@ while current_retry < max_retries:
         logger.info(f'Attempting to create Kafka Client. Retry count: {current_retry}')
         client = KafkaClient(hosts=f'{app_config["events"]["hostname"]}:{app_config["events"]["port"]}')
         topic = client.topics[str.encode(app_config['events']['topic'])]
+        logger.info(f'Succesful connection')
+        break
     except Exception as e:
         logger.error(f'Kafka creation failed. Error:{str(e)}')
         sleep_time = app_config['kafka']['sleep_time']
