@@ -29,7 +29,22 @@ logger = logging.getLogger('basicLogger')
 logger.info("App COnf File: %s" % app_conf_file)
 logger.info("Log Conf File: %s" % log_conf_file)
     
-
+if os.path.isfile(app_config['datastore']['filename']):
+        f = open(app_config['datastore']['filename'])
+        f_content = f.read()
+        json_object = json.loads(f_content)
+        f.close()
+else:
+    json_object = {'num_conflicts': 0,
+                    'max_blu': 0,
+                    'max_op': 0,
+                    'num_operations': 0,
+                    'max_blu_ships': 0,
+                    'max_op_ships': 0,
+                    'last_updated': "2023-10-12T11:06:15.894272"}
+    file_path = app_config['datastore']['filename']
+    with open(file_path, 'w') as data_json:
+        json.dump(json_object, data_json, indent=4)
 def get_stats():
     if os.path.isfile(app_config['datastore']['filename']):
         f = open(app_config['datastore']['filename'])
@@ -55,6 +70,7 @@ def populate_stats():
                         'max_blu_ships': 0,
                         'max_op_ships': 0,
                         'last_updated': "2023-10-12T11:06:15.894272"}
+        
     now = datetime.datetime.now()
     timestamp = now.strftime('%Y-%m-%dT%H:%M:%S.%f')
         
