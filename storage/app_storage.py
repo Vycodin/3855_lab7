@@ -142,8 +142,7 @@ def process_messages():
             session.close()
             logger.debug(f'Received event <upload_operation> with a trace id of {payload["trace_id"]}')
         consumer.commit_offsets()
-def healthCheck():
-    return NoContent, 200
+
 app = connexion.FlaskApp(__name__, specification_dir='')
 app.add_api("openapi.yaml",
             strict_validation=True,

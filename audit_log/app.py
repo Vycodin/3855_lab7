@@ -77,7 +77,8 @@ def get_operation_report(index):
     logger.error("Could not find report at index %d" % index)
     return {"message":"Not Found"}, 404
 
-
+def healthCheck():
+    return 200
 
 app = connexion.FlaskApp(__name__, specification_dir='')
 CORS(app.app)

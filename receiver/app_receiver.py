@@ -64,8 +64,7 @@ def report_conflict(body):
     logger.info(f'Returned event <report_conflict> reponse {trace_id} with status 201')
     
     return NoContent, 201
-def healthCheck():
-    return NoContent, 200
+
 def upload_operation(body):
     trace_id = random.randint(1000, 1000000000)
     body['trace_id'] = trace_id

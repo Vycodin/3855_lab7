@@ -99,7 +99,9 @@ paths:
       summary: health check on service
       operationId: app.healthCheck
       description: Runs a health check to see if service is running or down
-      Parameters:
+      responses:
+        '200':
+        description: service healthy and running
 components:
   schemas:
     conflict_node:

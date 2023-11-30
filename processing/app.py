@@ -8,6 +8,7 @@ from apscheduler.schedulers.background import BackgroundScheduler
 import json
 import os.path
 from flask_cors import CORS, cross_origin
+from connexion import NoContent
 
 if "TARGET_ENV" in os.environ and os.environ["TARGET_ENV"] == "test":
     print("In Test Environment")
@@ -136,7 +137,8 @@ def populate_stats():
     logger.debug(f"The current data is {data_dict}")
     logger.info(f"Processing period ended")
 
-
+def healthCheck():
+    return NoContent, 200
     
 def init_scheduler():
     sched = BackgroundScheduler(daemon=True)
