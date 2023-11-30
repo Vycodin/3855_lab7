@@ -96,6 +96,14 @@ paths:
                 properties:
                   message:
                     type: string
+  /health:
+    get:
+      summary: health check on service
+      operationId: app.healthCheck
+      description: Runs a health check to see if service is running or down
+      responses:
+        '200':
+        description: service healthy and running
         
       
 components:

@@ -53,7 +53,14 @@ paths:
               $ref: '#/components/schemas/operation_plan'
         description: reading item to add
         
-      
+  /health:
+    get:
+      summary: health check on service
+      operationId: app.healthCheck
+      description: Runs a health check to see if service is running or down
+      responses:
+        '200':
+        description: service healthy and running
 components:
   schemas:
     conflict_node:

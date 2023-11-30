@@ -94,6 +94,12 @@ paths:
                 properties:
                   message:
                     type: string
+  /health:
+    get:
+      summary: health check on service
+      operationId: app.healthCheck
+      description: Runs a health check to see if service is running or down
+      Parameters:
 components:
   schemas:
     conflict_node:

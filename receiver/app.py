@@ -39,6 +39,7 @@ while current_retry < max_retries:
         client = KafkaClient(hosts=f'{app_config["events"]["hostname"]}:{app_config["events"]["port"]}')
         topic = client.topics[str.encode(app_config['events']['topic'])]
         logger.info(f'Succesful connection')
+        producer = topic.get_sync_producer()
         break
     except Exception as e:
         logger.error(f'Kafka creation failed. Error:{str(e)}')
@@ -52,7 +53,6 @@ def report_conflict(body):
     trace_id = random.randint(1000, 1000000000)
     body['trace_id'] = trace_id
     logger.info(f'Received event <report_conflict> with a trace id of {trace_id}')
-    producer = topic.get_sync_producer()
     msg = { "type": "report_conflict",
         "datetime" :
         datetime.datetime.now().strftime(
