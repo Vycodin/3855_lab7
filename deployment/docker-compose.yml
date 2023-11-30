@@ -110,7 +110,7 @@ services:
     environment:
       - TARGET_ENV=test
     volumes:
-      - /home/azureuser/config/health:/health
+      - /home/azureuser/config/health:/config
       - /home/azureuser/logs:/logs
       - /processing-db:/data
 volumes:
